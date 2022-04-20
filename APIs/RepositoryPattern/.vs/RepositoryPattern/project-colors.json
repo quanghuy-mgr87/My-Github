@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ef02f138-d8b2-4536-9b82-13f96d503445": {
+      "ProjectGuid": "ef02f138-d8b2-4536-9b82-13f96d503445",
+      "DisplayName": "LoggerService",
+      "ColorIndex": 0
+    },
+    "6d7a3f26-65f8-4a84-9d9d-0e632728d302": {
+      "ProjectGuid": "6d7a3f26-65f8-4a84-9d9d-0e632728d302",
+      "DisplayName": "Contracts",
+      "ColorIndex": 1
+    },
+    "6e0c846b-0e48-4b60-9c31-651ec9ca2261": {
+      "ProjectGuid": "6e0c846b-0e48-4b60-9c31-651ec9ca2261",
+      "DisplayName": "Repository",
+      "ColorIndex": 2
+    },
+    "fffab4e3-6eac-4052-a586-9746b6e5cd6c": {
+      "ProjectGuid": "fffab4e3-6eac-4052-a586-9746b6e5cd6c",
+      "DisplayName": "RepositoryPattern",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

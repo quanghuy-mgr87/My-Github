@@ -1,0 +1,14 @@
+D:\Code\CodeImpostor\APIs\RepositoryPattern\Contracts\bin\Debug\net5.0\Contracts.deps.json
+D:\Code\CodeImpostor\APIs\RepositoryPattern\Contracts\bin\Debug\net5.0\Contracts.dll
+D:\Code\CodeImpostor\APIs\RepositoryPattern\Contracts\bin\Debug\net5.0\ref\Contracts.dll
+D:\Code\CodeImpostor\APIs\RepositoryPattern\Contracts\bin\Debug\net5.0\Contracts.pdb
+D:\Code\CodeImpostor\APIs\RepositoryPattern\Contracts\obj\Debug\net5.0\Contracts.csproj.AssemblyReference.cache
+D:\Code\CodeImpostor\APIs\RepositoryPattern\Contracts\obj\Debug\net5.0\Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\CodeImpostor\APIs\RepositoryPattern\Contracts\obj\Debug\net5.0\Contracts.AssemblyInfoInputs.cache
+D:\Code\CodeImpostor\APIs\RepositoryPattern\Contracts\obj\Debug\net5.0\Contracts.AssemblyInfo.cs
+D:\Code\CodeImpostor\APIs\RepositoryPattern\Contracts\obj\Debug\net5.0\Contracts.csproj.CoreCompileInputs.cache
+D:\Code\CodeImpostor\APIs\RepositoryPattern\Contracts\obj\Debug\net5.0\Contracts.dll
+D:\Code\CodeImpostor\APIs\RepositoryPattern\Contracts\obj\Debug\net5.0\ref\Contracts.dll
+D:\Code\CodeImpostor\APIs\RepositoryPattern\Contracts\obj\Debug\net5.0\Contracts.pdb
+D:\Code\CodeImpostor\APIs\RepositoryPattern\Contracts\bin\Debug\net5.0\Entities.dll
+D:\Code\CodeImpostor\APIs\RepositoryPattern\Contracts\bin\Debug\net5.0\Entities.pdb

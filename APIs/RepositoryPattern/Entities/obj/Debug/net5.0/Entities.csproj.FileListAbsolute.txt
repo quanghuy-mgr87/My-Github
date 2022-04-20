@@ -1,0 +1,15 @@
+D:\Code\CodeImpostor\APIs\RepositoryPattern\Entities\bin\Debug\net5.0\Entities.deps.json
+D:\Code\CodeImpostor\APIs\RepositoryPattern\Entities\bin\Debug\net5.0\Entities.runtimeconfig.json
+D:\Code\CodeImpostor\APIs\RepositoryPattern\Entities\bin\Debug\net5.0\Entities.runtimeconfig.dev.json
+D:\Code\CodeImpostor\APIs\RepositoryPattern\Entities\bin\Debug\net5.0\Entities.dll
+D:\Code\CodeImpostor\APIs\RepositoryPattern\Entities\bin\Debug\net5.0\ref\Entities.dll
+D:\Code\CodeImpostor\APIs\RepositoryPattern\Entities\bin\Debug\net5.0\Entities.pdb
+D:\Code\CodeImpostor\APIs\RepositoryPattern\Entities\obj\Debug\net5.0\Entities.csproj.AssemblyReference.cache
+D:\Code\CodeImpostor\APIs\RepositoryPattern\Entities\obj\Debug\net5.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\CodeImpostor\APIs\RepositoryPattern\Entities\obj\Debug\net5.0\Entities.AssemblyInfoInputs.cache
+D:\Code\CodeImpostor\APIs\RepositoryPattern\Entities\obj\Debug\net5.0\Entities.AssemblyInfo.cs
+D:\Code\CodeImpostor\APIs\RepositoryPattern\Entities\obj\Debug\net5.0\Entities.csproj.CoreCompileInputs.cache
+D:\Code\CodeImpostor\APIs\RepositoryPattern\Entities\obj\Debug\net5.0\Entities.dll
+D:\Code\CodeImpostor\APIs\RepositoryPattern\Entities\obj\Debug\net5.0\ref\Entities.dll
+D:\Code\CodeImpostor\APIs\RepositoryPattern\Entities\obj\Debug\net5.0\Entities.pdb
+D:\Code\CodeImpostor\APIs\RepositoryPattern\Entities\obj\Debug\net5.0\Entities.genruntimeconfig.cache

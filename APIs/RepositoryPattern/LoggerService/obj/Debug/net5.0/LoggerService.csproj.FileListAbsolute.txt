@@ -1,0 +1,12 @@
+D:\Code\CodeImpostor\APIs\RepositoryPattern\LoggerService\bin\Debug\net5.0\LoggerService.deps.json
+D:\Code\CodeImpostor\APIs\RepositoryPattern\LoggerService\bin\Debug\net5.0\LoggerService.dll
+D:\Code\CodeImpostor\APIs\RepositoryPattern\LoggerService\bin\Debug\net5.0\ref\LoggerService.dll
+D:\Code\CodeImpostor\APIs\RepositoryPattern\LoggerService\bin\Debug\net5.0\LoggerService.pdb
+D:\Code\CodeImpostor\APIs\RepositoryPattern\LoggerService\obj\Debug\net5.0\LoggerService.csproj.AssemblyReference.cache
+D:\Code\CodeImpostor\APIs\RepositoryPattern\LoggerService\obj\Debug\net5.0\LoggerService.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\CodeImpostor\APIs\RepositoryPattern\LoggerService\obj\Debug\net5.0\LoggerService.AssemblyInfoInputs.cache
+D:\Code\CodeImpostor\APIs\RepositoryPattern\LoggerService\obj\Debug\net5.0\LoggerService.AssemblyInfo.cs
+D:\Code\CodeImpostor\APIs\RepositoryPattern\LoggerService\obj\Debug\net5.0\LoggerService.csproj.CoreCompileInputs.cache
+D:\Code\CodeImpostor\APIs\RepositoryPattern\LoggerService\obj\Debug\net5.0\LoggerService.dll
+D:\Code\CodeImpostor\APIs\RepositoryPattern\LoggerService\obj\Debug\net5.0\ref\LoggerService.dll
+D:\Code\CodeImpostor\APIs\RepositoryPattern\LoggerService\obj\Debug\net5.0\LoggerService.pdb

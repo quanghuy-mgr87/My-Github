@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(https://scontent.fhan3-3.fna.fbcdn.net/v/t1.6435-9/127162639_2752017481727346_4452854733387195228_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=oD4T5FW4PCMAX_UytXl&tn=JJf7cS5LcR8rT_L3&_nc_ht=scontent.fhan3-3.fna&oh=00_AT9PbHRjFvF3gdjP_yL-cZVstCPNnEX5esLnQJnLZ-yDIw&oe=6278DC66)
+        no-repeat;
+    background-size: cover;
+}
+
+span {
+    position: absolute;
+    left: 50%;
+    transform: rotate(-40deg);
+    color: #262626;
+    font-weight: bold;
+    font-size: large;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 200px;
+    filter: blur(0.9px);
+    background-color: #262626;
+    opacity: 0.7;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    box-shadow: 45px 45px 45px rgba(0, 0, 0, 0.8);
+    z-index: 1;
+    overflow: hidden;
+}
+
+.center:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.heart {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: #f00;
+    transform: rotate(45deg) translate(15px, 15px);
+    animation: animate 1s linear infinite;
+}
+
+.heart:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    position: absolute;
+    top: -60%;
+    left: 0;
+    border-radius: 50%;
+}
+
+.heart:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    position: absolute;
+    bottom: 0;
+    right: 60%;
+    border-radius: 50%;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(45deg) translate(15px, 15px) scale(1);
+    }
+    25% {
+        transform: rotate(45deg) translate(15px, 15px) scale(1);
+    }
+    30% {
+        transform: rotate(45deg) translate(15px, 15px) scale(1.4);
+    }
+    50% {
+        transform: rotate(45deg) translate(15px, 15px) scale(1.2);
+    }
+    70% {
+        transform: rotate(45deg) translate(15px, 15px) scale(1.4);
+    }
+    90% {
+        transform: rotate(45deg) translate(15px, 15px) scale(1);
+    }
+    100% {
+        transform: rotate(45deg) translate(15px, 15px) scale(1);
+    }
+}

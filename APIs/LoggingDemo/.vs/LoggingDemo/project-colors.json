@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "acb4e2cd-0120-488e-ae1b-a62dc89b98b2": {
+      "ProjectGuid": "acb4e2cd-0120-488e-ae1b-a62dc89b98b2",
+      "DisplayName": "LoggingDemo",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

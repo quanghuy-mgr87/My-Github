@@ -1,0 +1,16 @@
+D:\Code\CodeImpostor\APIs\RepositoryPattern\Repository\bin\Debug\net5.0\Repository.deps.json
+D:\Code\CodeImpostor\APIs\RepositoryPattern\Repository\bin\Debug\net5.0\Repository.dll
+D:\Code\CodeImpostor\APIs\RepositoryPattern\Repository\bin\Debug\net5.0\ref\Repository.dll
+D:\Code\CodeImpostor\APIs\RepositoryPattern\Repository\bin\Debug\net5.0\Repository.pdb
+D:\Code\CodeImpostor\APIs\RepositoryPattern\Repository\bin\Debug\net5.0\Contracts.dll
+D:\Code\CodeImpostor\APIs\RepositoryPattern\Repository\bin\Debug\net5.0\Entities.dll
+D:\Code\CodeImpostor\APIs\RepositoryPattern\Repository\bin\Debug\net5.0\Contracts.pdb
+D:\Code\CodeImpostor\APIs\RepositoryPattern\Repository\bin\Debug\net5.0\Entities.pdb
+D:\Code\CodeImpostor\APIs\RepositoryPattern\Repository\obj\Debug\net5.0\Repository.csproj.AssemblyReference.cache
+D:\Code\CodeImpostor\APIs\RepositoryPattern\Repository\obj\Debug\net5.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\CodeImpostor\APIs\RepositoryPattern\Repository\obj\Debug\net5.0\Repository.AssemblyInfoInputs.cache
+D:\Code\CodeImpostor\APIs\RepositoryPattern\Repository\obj\Debug\net5.0\Repository.AssemblyInfo.cs
+D:\Code\CodeImpostor\APIs\RepositoryPattern\Repository\obj\Debug\net5.0\Repository.csproj.CoreCompileInputs.cache
+D:\Code\CodeImpostor\APIs\RepositoryPattern\Repository\obj\Debug\net5.0\Repository.dll
+D:\Code\CodeImpostor\APIs\RepositoryPattern\Repository\obj\Debug\net5.0\ref\Repository.dll
+D:\Code\CodeImpostor\APIs\RepositoryPattern\Repository\obj\Debug\net5.0\Repository.pdb
