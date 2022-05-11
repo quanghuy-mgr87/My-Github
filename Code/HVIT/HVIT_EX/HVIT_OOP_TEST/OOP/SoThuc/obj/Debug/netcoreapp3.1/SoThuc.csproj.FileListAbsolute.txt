@@ -1,0 +1,13 @@
+D:\Code\HVIT\HVIT_EX\HVIT_OOP_TEST\OOP\SoThuc\bin\Debug\netcoreapp3.1\SoThuc.exe
+D:\Code\HVIT\HVIT_EX\HVIT_OOP_TEST\OOP\SoThuc\bin\Debug\netcoreapp3.1\SoThuc.deps.json
+D:\Code\HVIT\HVIT_EX\HVIT_OOP_TEST\OOP\SoThuc\bin\Debug\netcoreapp3.1\SoThuc.runtimeconfig.json
+D:\Code\HVIT\HVIT_EX\HVIT_OOP_TEST\OOP\SoThuc\bin\Debug\netcoreapp3.1\SoThuc.runtimeconfig.dev.json
+D:\Code\HVIT\HVIT_EX\HVIT_OOP_TEST\OOP\SoThuc\bin\Debug\netcoreapp3.1\SoThuc.dll
+D:\Code\HVIT\HVIT_EX\HVIT_OOP_TEST\OOP\SoThuc\bin\Debug\netcoreapp3.1\SoThuc.pdb
+D:\Code\HVIT\HVIT_EX\HVIT_OOP_TEST\OOP\SoThuc\obj\Debug\netcoreapp3.1\SoThuc.csprojAssemblyReference.cache
+D:\Code\HVIT\HVIT_EX\HVIT_OOP_TEST\OOP\SoThuc\obj\Debug\netcoreapp3.1\SoThuc.AssemblyInfoInputs.cache
+D:\Code\HVIT\HVIT_EX\HVIT_OOP_TEST\OOP\SoThuc\obj\Debug\netcoreapp3.1\SoThuc.AssemblyInfo.cs
+D:\Code\HVIT\HVIT_EX\HVIT_OOP_TEST\OOP\SoThuc\obj\Debug\netcoreapp3.1\SoThuc.csproj.CoreCompileInputs.cache
+D:\Code\HVIT\HVIT_EX\HVIT_OOP_TEST\OOP\SoThuc\obj\Debug\netcoreapp3.1\SoThuc.dll
+D:\Code\HVIT\HVIT_EX\HVIT_OOP_TEST\OOP\SoThuc\obj\Debug\netcoreapp3.1\SoThuc.pdb
+D:\Code\HVIT\HVIT_EX\HVIT_OOP_TEST\OOP\SoThuc\obj\Debug\netcoreapp3.1\SoThuc.genruntimeconfig.cache

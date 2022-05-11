@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <title>Thao tác với Watched trong Vue Instance</title>
+        <style>
+            * {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="app" style="padding-top: 50px">
+            <!-- <div>{{change}}</div> -->
+            <button class="btn btn-primary" @click="changeMess()">Change message</button>
+        </div>
+        <script>
+            var vm = new Vue({
+                el: "#app",
+                data: function () {
+                    return {
+                        message: "Good morning. How are you?",
+                    };
+                },
+                methods: {
+                    show() {
+                        alert(this.message);
+                    },
+                    changeMess() {
+                        this.message = "Message was changed";
+                    },
+                },
+                watch: {
+                    message() {
+                        alert(this.message);
+                    },
+                },
+                // computed: {
+                //     change() {
+                //         alert(this.message);
+                //     },
+                // },
+            });
+            setTimeout(function () {
+                vm.show();
+            }, 0);
+        </script>
+    </body>
+</html>

@@ -1,0 +1,13 @@
+D:\Code\dotNet\TinhToanTest\TinhToanTest\bin\Debug\netcoreapp3.1\TinhToanTest.exe
+D:\Code\dotNet\TinhToanTest\TinhToanTest\bin\Debug\netcoreapp3.1\TinhToanTest.deps.json
+D:\Code\dotNet\TinhToanTest\TinhToanTest\bin\Debug\netcoreapp3.1\TinhToanTest.runtimeconfig.json
+D:\Code\dotNet\TinhToanTest\TinhToanTest\bin\Debug\netcoreapp3.1\TinhToanTest.runtimeconfig.dev.json
+D:\Code\dotNet\TinhToanTest\TinhToanTest\bin\Debug\netcoreapp3.1\TinhToanTest.dll
+D:\Code\dotNet\TinhToanTest\TinhToanTest\bin\Debug\netcoreapp3.1\TinhToanTest.pdb
+D:\Code\dotNet\TinhToanTest\TinhToanTest\obj\Debug\netcoreapp3.1\TinhToanTest.csprojAssemblyReference.cache
+D:\Code\dotNet\TinhToanTest\TinhToanTest\obj\Debug\netcoreapp3.1\TinhToanTest.AssemblyInfoInputs.cache
+D:\Code\dotNet\TinhToanTest\TinhToanTest\obj\Debug\netcoreapp3.1\TinhToanTest.AssemblyInfo.cs
+D:\Code\dotNet\TinhToanTest\TinhToanTest\obj\Debug\netcoreapp3.1\TinhToanTest.csproj.CoreCompileInputs.cache
+D:\Code\dotNet\TinhToanTest\TinhToanTest\obj\Debug\netcoreapp3.1\TinhToanTest.dll
+D:\Code\dotNet\TinhToanTest\TinhToanTest\obj\Debug\netcoreapp3.1\TinhToanTest.pdb
+D:\Code\dotNet\TinhToanTest\TinhToanTest\obj\Debug\netcoreapp3.1\TinhToanTest.genruntimeconfig.cache

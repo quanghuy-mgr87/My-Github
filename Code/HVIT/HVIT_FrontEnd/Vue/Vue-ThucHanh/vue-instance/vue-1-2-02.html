@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thao tác với computed</title>
+  </head>
+
+  <body>
+    <div id="app1">{{showText}}</div>
+    <script>
+      var vm = new Vue({
+        data: function () {
+          return {
+            text: "HelloWorld",
+          };
+        },
+        computed: {
+          showText() {
+            return this.text.toUpperCase().split("").join(" ");
+          },
+        },
+      });
+      vm.$mount("#app1");
+    </script>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thao tác với v-for</title>
+</head>
+
+<body>
+    <div id="app">
+        <ul>
+            <li v-for="(val, index) in lstString" :key="index">{{val.string}}</li>
+        </ul>
+    </div>
+    <script>
+        var vm = new Vue({
+            data() {
+                return {
+                    lstString: [{
+                        string: "string 1",
+                    }, {
+                        string: "string 2",
+                    }, {
+                        string: "string 3",
+                    }, {
+                        string: "string 4",
+                    }, {
+                        string: "string 5",
+                    }, {
+                        string: "string 6",
+                    }, ],
+                };
+            },
+        });
+        vm.$mount("#app");
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+02502020/05/29:20:41,,Get,
+02512020/05/29:20:41,Administrator,Logon,
+02522020/05/29:20:42,Administrator,GetAll,
+02532020/05/29:20:42,Administrator,GetAll,
+02542020/05/29:20:42,Administrator,GetAll,
+02552020/05/29:20:42,Administrator,Put,3, 3, えええええうううううううううううう, True, ええええええええええええええ
+02562020/05/29:20:42,Administrator,GetAll,
+02572020/05/29:20:43,,Get,
+02582020/05/29:20:43,Administrator,Logon,
+02592020/05/29:20:43,Administrator,GetAll,
+02602020/05/29:20:43,Administrator,GetAll,
+02612020/05/29:20:43,Administrator,GetAll,
+02622020/05/29:20:43,Administrator,Put,3, 3, えええええうううううううううううう, True, ええええええええええええええ
+02632020/05/29:20:43,Administrator,GetAll,
+02642020/05/29:21:22,,Put,1, C:\Users\user\Desktop\商品管理\ソースコード\SalesManagement20200525_商品管理v6\SalesManagement20200525_商品管理0601\SalesManagement\bin\Debug\log\log2020_05_29.txt, 1000, 0, 0, 変更1
+02652020/05/29:21:22,,Get,
+02662020/05/29:21:22,Administrator,Logon,

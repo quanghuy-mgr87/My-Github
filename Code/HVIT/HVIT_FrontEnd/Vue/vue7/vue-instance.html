@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="app1">
+            <!-- <h1>{{msg}}</h1> -->
+            <h1 ref="theH1">{{msg}}</h1>
+            <h2 ref="theH2">{{msg}}</h2>
+            <button @click="show()">Show ref</button>
+        </div>
+
+        <hr />
+
+        <div id="app2">
+            <h1>{{msg}}</h1>
+            <button @click="changeInstance1()">Changed</button>
+        </div>
+
+        <!-- script -->
+        <script>
+            // var dataObjOutside = {
+            //     msg: "helu",
+            // };
+            var vm1 = new Vue({
+                el: "#app1",
+                //data: dataObjOutside,
+                data() {
+                    return {
+                        msg: 'helu'
+                    }
+                },
+                methods: {
+                    show() {
+                        alert("alert show by timer!");
+                        this.$refs.theH1.innerText = 'bdu'
+                        console.log(this.$refs.theH1)
+                    },
+                },
+            });
+            //vm1.$refs.theH1.innerText = 'bdu'
+
+            console.log(vm1.$refs)
+
+            // dataObjOutside.msg = 'adu';
+            // console.log(vm1.$data.msg);
+            //console.log(dataObjOutside.msg === vm1.$data.msg);
+
+            setTimeout(function () {
+                vm1.msg = "test";
+                vm1.show();
+            }, 3000);
+
+            console.log(vm1);
+
+            var vm2 = new Vue({
+                el: "#app2",
+                data() {
+                    return {
+                        msg: "Message 02",
+                    };
+                },
+                methods: {
+                    changeInstance1() {
+                        vm1.msg = "Change by instance 2";
+                        vm1.show();
+                    },
+                },
+            });
+        </script>
+    </body>
+</html>

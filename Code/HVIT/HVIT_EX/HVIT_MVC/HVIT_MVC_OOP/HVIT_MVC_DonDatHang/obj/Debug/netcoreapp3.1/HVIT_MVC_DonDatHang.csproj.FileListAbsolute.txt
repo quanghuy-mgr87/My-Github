@@ -1,0 +1,15 @@
+D:\Code\HVIT\HVIT_EX\HVIT_MVC_OOP\HVIT_MVC_DonDatHang\bin\Debug\netcoreapp3.1\HVIT_MVC_DonDatHang.exe
+D:\Code\HVIT\HVIT_EX\HVIT_MVC_OOP\HVIT_MVC_DonDatHang\bin\Debug\netcoreapp3.1\HVIT_MVC_DonDatHang.deps.json
+D:\Code\HVIT\HVIT_EX\HVIT_MVC_OOP\HVIT_MVC_DonDatHang\bin\Debug\netcoreapp3.1\HVIT_MVC_DonDatHang.runtimeconfig.json
+D:\Code\HVIT\HVIT_EX\HVIT_MVC_OOP\HVIT_MVC_DonDatHang\bin\Debug\netcoreapp3.1\HVIT_MVC_DonDatHang.runtimeconfig.dev.json
+D:\Code\HVIT\HVIT_EX\HVIT_MVC_OOP\HVIT_MVC_DonDatHang\bin\Debug\netcoreapp3.1\HVIT_MVC_DonDatHang.dll
+D:\Code\HVIT\HVIT_EX\HVIT_MVC_OOP\HVIT_MVC_DonDatHang\bin\Debug\netcoreapp3.1\HVIT_MVC_DonDatHang.pdb
+D:\Code\HVIT\HVIT_EX\HVIT_MVC_OOP\HVIT_MVC_DonDatHang\obj\Debug\netcoreapp3.1\HVIT_MVC_DonDatHang.csprojAssemblyReference.cache
+D:\Code\HVIT\HVIT_EX\HVIT_MVC_OOP\HVIT_MVC_DonDatHang\obj\Debug\netcoreapp3.1\HVIT_MVC_DonDatHang.Helper.res.resources
+D:\Code\HVIT\HVIT_EX\HVIT_MVC_OOP\HVIT_MVC_DonDatHang\obj\Debug\netcoreapp3.1\HVIT_MVC_DonDatHang.csproj.GenerateResource.cache
+D:\Code\HVIT\HVIT_EX\HVIT_MVC_OOP\HVIT_MVC_DonDatHang\obj\Debug\netcoreapp3.1\HVIT_MVC_DonDatHang.AssemblyInfoInputs.cache
+D:\Code\HVIT\HVIT_EX\HVIT_MVC_OOP\HVIT_MVC_DonDatHang\obj\Debug\netcoreapp3.1\HVIT_MVC_DonDatHang.AssemblyInfo.cs
+D:\Code\HVIT\HVIT_EX\HVIT_MVC_OOP\HVIT_MVC_DonDatHang\obj\Debug\netcoreapp3.1\HVIT_MVC_DonDatHang.csproj.CoreCompileInputs.cache
+D:\Code\HVIT\HVIT_EX\HVIT_MVC_OOP\HVIT_MVC_DonDatHang\obj\Debug\netcoreapp3.1\HVIT_MVC_DonDatHang.dll
+D:\Code\HVIT\HVIT_EX\HVIT_MVC_OOP\HVIT_MVC_DonDatHang\obj\Debug\netcoreapp3.1\HVIT_MVC_DonDatHang.pdb
+D:\Code\HVIT\HVIT_EX\HVIT_MVC_OOP\HVIT_MVC_DonDatHang\obj\Debug\netcoreapp3.1\HVIT_MVC_DonDatHang.genruntimeconfig.cache

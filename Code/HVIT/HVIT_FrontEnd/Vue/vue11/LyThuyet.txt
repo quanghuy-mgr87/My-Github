@@ -1,0 +1,131 @@
+1. Scope style
+    - Cần phải định nghĩa rõ ràng các phạm vi của style trong các component mà mình sử dụng.
+    
+    * Cách khai báo này sử dụng cho global
+    <style>
+        // triển khai chung cho các file
+    </style>
+
+    * Cách khai báo sử dụng cho local
+    <style>
+        // triển khai các mã css dùng riêng cho file chứa đoạn mã này
+    </style>
+
+2. Giao tiếp giữa các component
+    * Sử dụng props để giao tiếp từ parent -> child
+    - Để truyền dữ liệu từ component cha mẹ sang con, ta sử dụng từ khóa props trong component cha (parent),
+        tại nơi tag gọi đến component con (child)
+    - Để các component con nhận được dữ liệu chứa trong props này thì nó cần khai báo thuộc tính props 
+        (tương tự như data, methods, components, ...)
+    - Dữ liệu component con nhận được từ props sẽ được com con sử dụng (dùng để tính toán, hiển thị, ...) như 1 biến đã khai báo trong data
+
+    + Cách parent gửi props:
+        <child-component-name [:](dấu ":" có thể có hoặc ko)props_name = "varialble"></child-component-name>
+        * Trong đó
+            - props_name là tên thuộc tính cần gửi từ parent -> child, bên child sẽ dùng từ khóa này để nhận dữ liệu.
+            - varialble là giá trị của thuộc tính cần gửi
+            - Nếu giá trị này là tĩnh thì ko cần dấu ":" (v-bind) phía trước props_name
+            - Nếu giá trị này là động (có thay đổi theo data của component cha) thì cần đặt dấu ":" (v-bind) phía trước props_name.
+
+    + Cách child nhận props:
+    -* Cách nhận rút gọn:
+        <script>
+            export default {
+                props: ['props_name']
+            }
+        </script>
+        * Trong đó:
+            - props_name là tên thuộc tính mà child nhận từ parent
+            - Nếu có nhiều prop, ngăn cách nhau bởi dấu phẩy
+
+    -* Cách nhận đầy đủ:
+        <script>
+            export default {
+                props: {
+                    props_name:{
+                        type: props_type,
+                        required: boolen,
+                        default: default_value
+                    }
+                }
+            }
+        </script>
+    
+    *Callback function
+        - Callback function của vue là 1 phần trong props, nó là 1 cách để truyền tham số là function từ parent -> child
+        - Cách parent truyền props dạng function:
+            <child-component-name :props_name = "func_name"></child-component-name>
+            * Trong đó:
+                - props_name là tên hàm cần gửi từ parent -> child, bên child sẽ dùng từ khóa này để nhận function.
+                - func_name là tên function đã được định nghĩa phía parent.
+
+        - Cách child nhận props:
+            VD:
+                <script>
+                    export default {
+                        props: {
+                            props_name: Function
+                        }
+                    }
+                </script>
+            
+            * Trong đó:
+                - props_name là tên function mà child nhận từ parent
+                - Kiểu của props này mặc định là Function
+                - Tương tự, nếu có nhiều props, mỗi đối tượng như VD và cách nhau bởi dấu phẩy
+                - Phía child sẽ sử dụng props_name này như 1 hàm thực sự
+
+    
+    *Custom Event
+        - Custom event là cách để khai báo 1 event mới, dùng để giao tiếp từ child -> parent
+            
+            // Gửi event từ con sang cha
+            VD:
+                this.$emit("event_name", varialble)
+
+            * Trong đó:
+                - event_name là tên sự kiện mà child muốn truyền cho parent
+                - varialble là biến truyền đi cùng sự kiện đó
+
+            // Cách để bên cha nhận event
+                <child-component-name @event_name = "hanh_dong"></child-component-name>
+
+
+    * Sibling component:
+        - Để giao tiếp giữa các component anh chị em, chúng ta không đi trực tiếp như cách mà ta từng giao tiếp giữa parent <-> child
+        - Thay vào đó, ta sẽ  đi từ child này -> child khác thông qua parent
+
+
+    * Event bus: 
+        - Để khắc phục tính rườm rà khi giao tiếp giữa các component này, khái niêm event bus được sinh ra
+        - Event bus được dùng để giao tiếp giữa các component bất kỳ, không cần phải có quan hệ cha con
+
+            Cách dùng: export ở main.js
+
+                import Vue from 'Vue';
+                export const EventBus = new Vue();
+
+        - Câu lệnh này để tạo 1 module, nó export instance (EventBus) để sử dụng trong các component.
+        - Mỗi component sẽ có thể gửi đi một sự kiện và component khác có thể lắng nghe sự kiện thông qua event bus
+
+            Cách gửi đi 1 sự kiện:
+                EventBus.$emit('eventbus_name',varialble);
+
+                * Trong đó: 
+                    - eventbus_name là tên mà component muốn gửi đi
+                    - varialble là tên biến muốn gửi kèm sự kiện
+
+            Nhận một sự kiện
+                // import EventBus từ file chứa khởi tạo EventBus
+                import {EventBus} from 'eventbus_path';
+
+                // Lắng nghe sự kiện được gửi sang từ component khác
+                EventBus.$on('eventbus_name', hanh_dong);
+
+            // gửi dùng emit nhận dùng on //
+
+            * Trong đó:
+                - eventbus_name là tên sự kiện mà component muốn Nhận
+                - hanh_dong là các hành động sẽ thực thi sau khi bên nhận nhận được sự kiện mà component bên gửi gửi qua
+                    (có thể là 1 lệnh js hoặc call tới 1 hàm)
+            

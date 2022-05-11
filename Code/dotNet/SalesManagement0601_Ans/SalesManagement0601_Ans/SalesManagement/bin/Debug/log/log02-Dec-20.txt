@@ -1,0 +1,4 @@
+000302-Dec-20:10:21 PM,,Put,1, D:\Code\dotNet\SalesManagement0601_Ans\SalesManagement0601_Ans\SalesManagement\bin\Debug\log\log02-Dec-20.txt, 1000, 0, 0, 変更1
+000402-Dec-20:10:21 PM,,Get,
+000502-Dec-20:10:25 PM,,Get,
+000602-Dec-20:10:25 PM,,Get,

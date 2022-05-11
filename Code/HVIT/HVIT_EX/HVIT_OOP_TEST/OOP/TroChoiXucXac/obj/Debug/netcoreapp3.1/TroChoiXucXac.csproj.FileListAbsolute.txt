@@ -1,0 +1,13 @@
+D:\Code\HVIT\HVIT_EX\HVIT_OOP_TEST\OOP\TroChoiXucXac\bin\Debug\netcoreapp3.1\TroChoiXucXac.exe
+D:\Code\HVIT\HVIT_EX\HVIT_OOP_TEST\OOP\TroChoiXucXac\bin\Debug\netcoreapp3.1\TroChoiXucXac.deps.json
+D:\Code\HVIT\HVIT_EX\HVIT_OOP_TEST\OOP\TroChoiXucXac\bin\Debug\netcoreapp3.1\TroChoiXucXac.runtimeconfig.json
+D:\Code\HVIT\HVIT_EX\HVIT_OOP_TEST\OOP\TroChoiXucXac\bin\Debug\netcoreapp3.1\TroChoiXucXac.runtimeconfig.dev.json
+D:\Code\HVIT\HVIT_EX\HVIT_OOP_TEST\OOP\TroChoiXucXac\bin\Debug\netcoreapp3.1\TroChoiXucXac.dll
+D:\Code\HVIT\HVIT_EX\HVIT_OOP_TEST\OOP\TroChoiXucXac\bin\Debug\netcoreapp3.1\TroChoiXucXac.pdb
+D:\Code\HVIT\HVIT_EX\HVIT_OOP_TEST\OOP\TroChoiXucXac\obj\Debug\netcoreapp3.1\TroChoiXucXac.AssemblyInfoInputs.cache
+D:\Code\HVIT\HVIT_EX\HVIT_OOP_TEST\OOP\TroChoiXucXac\obj\Debug\netcoreapp3.1\TroChoiXucXac.AssemblyInfo.cs
+D:\Code\HVIT\HVIT_EX\HVIT_OOP_TEST\OOP\TroChoiXucXac\obj\Debug\netcoreapp3.1\TroChoiXucXac.csproj.CoreCompileInputs.cache
+D:\Code\HVIT\HVIT_EX\HVIT_OOP_TEST\OOP\TroChoiXucXac\obj\Debug\netcoreapp3.1\TroChoiXucXac.dll
+D:\Code\HVIT\HVIT_EX\HVIT_OOP_TEST\OOP\TroChoiXucXac\obj\Debug\netcoreapp3.1\TroChoiXucXac.pdb
+D:\Code\HVIT\HVIT_EX\HVIT_OOP_TEST\OOP\TroChoiXucXac\obj\Debug\netcoreapp3.1\TroChoiXucXac.genruntimeconfig.cache
+D:\Code\HVIT\HVIT_EX\HVIT_OOP_TEST\OOP\TroChoiXucXac\obj\Debug\netcoreapp3.1\TroChoiXucXac.csprojAssemblyReference.cache

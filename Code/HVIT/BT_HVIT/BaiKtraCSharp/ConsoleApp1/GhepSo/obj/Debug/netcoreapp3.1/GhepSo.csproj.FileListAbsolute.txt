@@ -1,0 +1,13 @@
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\GhepSo\bin\Debug\netcoreapp3.1\GhepSo.exe
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\GhepSo\bin\Debug\netcoreapp3.1\GhepSo.deps.json
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\GhepSo\bin\Debug\netcoreapp3.1\GhepSo.runtimeconfig.json
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\GhepSo\bin\Debug\netcoreapp3.1\GhepSo.runtimeconfig.dev.json
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\GhepSo\bin\Debug\netcoreapp3.1\GhepSo.dll
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\GhepSo\bin\Debug\netcoreapp3.1\GhepSo.pdb
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\GhepSo\obj\Debug\netcoreapp3.1\GhepSo.csprojAssemblyReference.cache
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\GhepSo\obj\Debug\netcoreapp3.1\GhepSo.AssemblyInfoInputs.cache
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\GhepSo\obj\Debug\netcoreapp3.1\GhepSo.AssemblyInfo.cs
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\GhepSo\obj\Debug\netcoreapp3.1\GhepSo.csproj.CoreCompileInputs.cache
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\GhepSo\obj\Debug\netcoreapp3.1\GhepSo.dll
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\GhepSo\obj\Debug\netcoreapp3.1\GhepSo.pdb
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\GhepSo\obj\Debug\netcoreapp3.1\GhepSo.genruntimeconfig.cache

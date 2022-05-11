@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: moccasin;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+#header {
+    color: darkorange;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#header > h1 {
+    font-size: 40px;
+}
+
+#header > p {
+    font-size: 20px;
+}
+
+#navbar {
+    background-color: darkorange;
+    height: 50px;
+}
+
+#navbar > a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    float: left;
+    padding: 16px 17px;
+}
+
+#navbar > a:hover {
+    background-color: orange;
+}
+
+.content {
+    width: 70%;
+    float: left;
+}
+
+.sidebar {
+    width: 30%;
+    float: right;
+    padding-left: 20px;
+}
+
+.card {
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.img_content {
+    background: url(https://www.djb.com/wp-content/uploads/2017/04/Financial-Plan.jpg) no-repeat center center;
+    background-size: 100%;
+    width: 100%;
+    height: 250px;
+}
+
+.img_gioiThieu {
+    background: url(https://www.wikihow.com/images_en/thumb/b/b3/Write-a-Work-Plan-Step-8-Version-2.jpg/v4-1200px-Write-a-Work-Plan-Step-8-Version-2.jpg) no-repeat center center;
+    background-size: 100%;
+    width: 100%;
+    height: 200px;
+}
+
+.card > .img_gioiThieu {
+    margin-bottom: 10px;
+}
+
+#footer {
+    background-color: white;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#main::after {
+    content: "";
+    clear: both;
+    display: block;
+}

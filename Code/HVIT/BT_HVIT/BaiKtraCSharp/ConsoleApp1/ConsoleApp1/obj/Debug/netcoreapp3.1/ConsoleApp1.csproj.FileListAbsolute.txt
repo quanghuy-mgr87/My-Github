@@ -1,0 +1,13 @@
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.exe
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.deps.json
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.json
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.dev.json
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.dll
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.pdb
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csprojAssemblyReference.cache
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfoInputs.cache
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfo.cs
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.genruntimeconfig.cache

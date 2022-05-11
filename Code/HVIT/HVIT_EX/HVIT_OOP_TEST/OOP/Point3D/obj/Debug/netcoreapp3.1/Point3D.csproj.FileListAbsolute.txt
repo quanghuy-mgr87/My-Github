@@ -1,0 +1,13 @@
+D:\Code\HVIT\HVIT_EX\HVIT_OOP_TEST\OOP\Point3D\obj\Debug\netcoreapp3.1\Point3D.csprojAssemblyReference.cache
+D:\Code\HVIT\HVIT_EX\HVIT_OOP_TEST\OOP\Point3D\obj\Debug\netcoreapp3.1\Point3D.AssemblyInfoInputs.cache
+D:\Code\HVIT\HVIT_EX\HVIT_OOP_TEST\OOP\Point3D\obj\Debug\netcoreapp3.1\Point3D.AssemblyInfo.cs
+D:\Code\HVIT\HVIT_EX\HVIT_OOP_TEST\OOP\Point3D\obj\Debug\netcoreapp3.1\Point3D.csproj.CoreCompileInputs.cache
+D:\Code\HVIT\HVIT_EX\HVIT_OOP_TEST\OOP\Point3D\bin\Debug\netcoreapp3.1\Point3D.exe
+D:\Code\HVIT\HVIT_EX\HVIT_OOP_TEST\OOP\Point3D\bin\Debug\netcoreapp3.1\Point3D.deps.json
+D:\Code\HVIT\HVIT_EX\HVIT_OOP_TEST\OOP\Point3D\bin\Debug\netcoreapp3.1\Point3D.runtimeconfig.json
+D:\Code\HVIT\HVIT_EX\HVIT_OOP_TEST\OOP\Point3D\bin\Debug\netcoreapp3.1\Point3D.runtimeconfig.dev.json
+D:\Code\HVIT\HVIT_EX\HVIT_OOP_TEST\OOP\Point3D\bin\Debug\netcoreapp3.1\Point3D.dll
+D:\Code\HVIT\HVIT_EX\HVIT_OOP_TEST\OOP\Point3D\bin\Debug\netcoreapp3.1\Point3D.pdb
+D:\Code\HVIT\HVIT_EX\HVIT_OOP_TEST\OOP\Point3D\obj\Debug\netcoreapp3.1\Point3D.dll
+D:\Code\HVIT\HVIT_EX\HVIT_OOP_TEST\OOP\Point3D\obj\Debug\netcoreapp3.1\Point3D.pdb
+D:\Code\HVIT\HVIT_EX\HVIT_OOP_TEST\OOP\Point3D\obj\Debug\netcoreapp3.1\Point3D.genruntimeconfig.cache

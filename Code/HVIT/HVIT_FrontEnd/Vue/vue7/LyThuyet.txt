@@ -1,0 +1,52 @@
+2. Làm quen với $el, $data, $refs
+* $el: (khoanh vùng vue xử lý)
+    - $el dùng để xác định phần tử html cần xử lý
+    - Chúng ta cùng xem chi tiết hơn đoạn code mẫu khởi tạo thực thể Vue. Đầu tiên là thuộc tính el của Vue instance để xác định
+        thành phần html nào sẽ đc thực thể Vue này kiểm soát hay nói cách khác là phần tử html nào được thực thể Vue gắn vào (mount),
+        như vậy bằng cách khai báo với thuộc tính el, Vue instance sẽ đc mount tự động vào một phần tử html.
+    - Vì vậy có thể coi sử dụng el là cách mà vuejs theo dõi mã html của chúng ta
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+* $data:
+    - $data là một đối tượng chứa các thuộc tính dữ liệu của chúng ta
+        data:{
+            //khai báo các biến
+        },
+
+        data: function(){
+            return {
+                //khai báo các biến (theo chuẩn ES6)
+            }
+        },
+
+    - Hàm data trả về một đối tượng, mỗi thuộc tính của đối tượng có thể lại là môt đối tượng được gán lên view hoặc truy xuất trong code
+        javascript thông qua biến this.
+    - VD khi cần thiết lập giá trị cho message ta có thể thực hiện như sau:
+            this.message = 'Khóa học về VueJS';
+    - Bạn cũng hoàn toàn có thể khai báo các đối tượng từ trước và khi khởi tạo thực thể Vue thì mới đưa đối tượng đó vào phần trả về của 
+        hàm data
+            
+            var data = {message: 'Hello VueJS'}
+            var vm = new Vue({
+                data: data
+            })
+            vm.message === data.message //cho kết quả true
+            // Thiết lập giá trị cho thuộc tính cũng ảnh hưởng đến đối tượng gốc
+            vm.message = 'Giới thiệu Vue.js' //data.message có giá trị là 'Giới thiệu Vue.js'
+            data.message = 'Công cụ lập trình với Vue.js' //vm.message có giá trị là 'Công cụ lập trình với Vue.js'
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+* refs
+    - Dùng để truy cập tới bất kỳ node nào trong DOM
+    - ref là loại khóa được vuejs nhận ra trên bất kỳ phần tử nào, bạn có thể đặt nó trên bất kỳ phần tử html nào
+    - Các thông tin của khóa ref mà bạn đăng ký đều nằm trong thuộc tính $refs
+        <tag_name ref="ref_key">content</tag_name>
+    - Trong đó, ref_key là tên (khóa) của phần tử mà bạn muốn truy cập
+    - $refs được sử dụng để chọn / nhắm mục tiêu các phần tử html
+    - $refs giống như document.querySelector('.el') trong Vanilla JS hoặc $('.el') trong jQuery
+    - $refs có thể được truy cập bên trong hoặc bên ngoài thể hiện VueJS của bạn.
+    - $refs KHÔNG PHẢN ỨNG (reactivity) không giống như các thuộc tính dữ liệu
+    - Vì vậy, nên sử dụng $refs khi bạn muốn nghe / thao tác / thay đổi giá trị của một phần tử không được kết nối / kiểm soát với bất kỳ thuộc
+        tính Vue nào để tránh xung đột

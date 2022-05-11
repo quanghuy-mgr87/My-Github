@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@5.x/css/materialdesignicons.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <title>Thao tác với form input</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+      #app {
+        margin: 10px;
+        background-color: antiquewhite;
+        border-radius: 8px;
+      }
+      #header {
+        padding: 5px;
+        text-align: center;
+        background-color: saddlebrown;
+        color: white;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+      }
+      #footer {
+        background-color: saddlebrown;
+        color: white;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+      }
+      .col-lg-6 {
+        border: 1px solid gray;
+      }
+      .col-lg-6 > i {
+        margin-left: 10px;
+      }
+      label {
+        font-weight: 500;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <div id="header">
+        <div class="container-fluid">
+          <h3>- Thao tác với form input -</h3>
+        </div>
+      </div>
+      <div id="main">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-6 pt-2 pb-2" id="app1">
+              <h5>-- Nhập thông tin người dùng --</h5>
+              <hr />
+              <div class="form-group">
+                <label>Họ tên: </label>
+                <input type="text" class="form-control" placeholder="Nhập họ tên..." v-model="hoTen" />
+                <br />
+                <label>Giới tính: </label> <input type="radio" value="Nam" v-model="gioiTinh" /> Nam <input type="radio" value="Nữ" v-model="gioiTinh" /> Nữ
+                <br />
+                <label>Giới thiệu bản thân:</label>
+                <textarea cols="30" rows="6" class="form-control" v-model="gioiThieu"></textarea>
+                <br />
+                <label>Email:</label>
+                <input type="text" class="form-control" placeholder="Nhập email..." v-model="email" />
+                <br />
+                <label>Tuổi:</label><input style="width: 130px" type="number" min="0" pattern="[-+]?[0-9]" class="form-control" placeholder="Nhập tuổi..." v-model="tuoi" />
+              </div>
+              <hr />
+              <v-btn @click="onClick">Submit</v-btn>
+            </div>
+            <div class="col-lg-6 pt-2 pb-2" id="app2">
+              <h5>-- Thông tin người dùng --</h5>
+              <hr />
+              <label>Họ tên: </label><i>{{hoTen}}</i>
+              <br />
+              <label>Giới tính: </label><i>{{gioiTinh}}</i>
+              <br />
+              <label>Giới thiệu bản thân: </label><i>{{gioiThieu}}</i>
+              <br />
+              <label>Email: </label><i>{{email}}</i>
+              <br />
+              <label>Tuổi: </label><i>{{tuoi}}</i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="footer">
+        <div class="container-fluid">
+          <b style="font-size: x-small">Nguyễn Bá Quang Huy</b>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
+    <script>
+      var vm1 = new Vue({
+        el: "#app1",
+        vuetify: new Vuetify(),
+        data: function () {
+          return {
+            hoTen: "",
+            gioiTinh: "",
+            gioiThieu: "",
+            email: "",
+            tuoi: null,
+          };
+        },
+        methods: {
+          onClick() {
+            vm2.$data.hoTen = this.hoTen;
+            vm2.$data.gioiTinh = this.gioiTinh;
+            vm2.$data.gioiThieu = this.gioiThieu;
+            vm2.$data.email = this.email;
+            vm2.$data.tuoi = this.tuoi;
+          },
+        },
+      });
+      var vm2 = new Vue({
+        el: "#app2",
+        data: function () {
+          return {
+            hoTen: "",
+            gioiTinh: "",
+            gioiThieu: "",
+            email: "",
+            tuoi: null,
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

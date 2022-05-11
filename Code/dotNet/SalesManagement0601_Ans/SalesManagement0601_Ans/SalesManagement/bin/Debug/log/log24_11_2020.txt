@@ -1,0 +1,3 @@
+000424/11/2020:14:45,,Put,1, C:\Users\hueph\Desktop\SalesManagement0601_Ans\SalesManagement\bin\Debug\log\log24_11_2020.txt, 1000, 0, 0, 変更1
+000524/11/2020:14:45,,Get,
+000624/11/2020:14:45,,Get,

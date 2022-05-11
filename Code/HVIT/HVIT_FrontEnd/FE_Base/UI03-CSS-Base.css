@@ -1,0 +1,35 @@
+#themTieuDe {
+    font-weight: 700;
+    text-align: center;
+  }
+  #deMuc {
+    color: red;
+    font-size: 20px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+  }
+  #text {
+    color: brown;
+  }
+
+  .themTieuDe {
+    font-weight: 700;
+    text-align: center;
+  }
+  .deMuc {
+    color: red;
+    font-size: 20px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+  }
+  .text {
+    color: brown;
+  }
+
+  h1 {
+    color: red;
+  }
+
+  p {
+    font-size: 30px;
+  }

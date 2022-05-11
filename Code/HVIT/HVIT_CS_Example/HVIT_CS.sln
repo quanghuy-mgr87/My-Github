@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HVIT_CS", "HVIT_CS\HVIT_CS.csproj", "{82695540-84FA-4D3D-98D0-0276D76FC2C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP_HVIT_CS", "OOP_HVIT_CS\OOP_HVIT_CS.csproj", "{B492BFAE-0828-4F65-8594-7ED19FFBAAB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HVIT_MVC", "HVIT_MVC\HVIT_MVC.csproj", "{3BF94762-232C-4921-A841-D7C0E5BF4AFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82695540-84FA-4D3D-98D0-0276D76FC2C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82695540-84FA-4D3D-98D0-0276D76FC2C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82695540-84FA-4D3D-98D0-0276D76FC2C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82695540-84FA-4D3D-98D0-0276D76FC2C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B492BFAE-0828-4F65-8594-7ED19FFBAAB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B492BFAE-0828-4F65-8594-7ED19FFBAAB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B492BFAE-0828-4F65-8594-7ED19FFBAAB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B492BFAE-0828-4F65-8594-7ED19FFBAAB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BF94762-232C-4921-A841-D7C0E5BF4AFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BF94762-232C-4921-A841-D7C0E5BF4AFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BF94762-232C-4921-A841-D7C0E5BF4AFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BF94762-232C-4921-A841-D7C0E5BF4AFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F0EA097C-2482-4B0B-8A4F-DC82A1EF43C2}
+	EndGlobalSection
+EndGlobal

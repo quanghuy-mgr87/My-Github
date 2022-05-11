@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thao tác với v-for lồng</title>
+</head>
+
+<body>
+    <div id="app">
+        <div v-for="(val, index) in hocSinh">
+            <div :key="index">Tên: {{val.name}}, {{val.age}} tuổi, sống tại: {{val.address}}, đã học các môn:
+                <span v-for="(item, index1) in `${val.subject}`">{{item}}</span>
+            </div>
+        </div>
+    </div>
+    <script>
+        var vm = new Vue({
+            data: function() {
+                return {
+                    hocSinh: [{
+                        name: "Nguyen Van A",
+                        age: 18,
+                        address: "Ha Noi",
+                        subject: ["Toan", "Ly", "Hoa"],
+                    }, {
+                        name: "Nguyen Van B",
+                        age: 20,
+                        address: "TPHCM",
+                        subject: ["Toan", "Ly"],
+                    }, {
+                        name: "Nguyen Van C",
+                        age: 22,
+                        address: "Hai Phong",
+                        subject: ["Toan", "Hoa"],
+                    }, {
+                        name: "Nguyen Van D",
+                        age: 18,
+                        address: "Ha Noi",
+                        subject: ["Toan"],
+                    }, {
+                        name: "Nguyen Van E",
+                        age: 26,
+                        address: "Da Nang",
+                        subject: ["Ly", "Hoa"],
+                    }, ],
+                };
+            },
+        });
+        vm.$mount("#app");
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\TieuTien\bin\Debug\netcoreapp3.1\TieuTien.exe
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\TieuTien\bin\Debug\netcoreapp3.1\TieuTien.deps.json
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\TieuTien\bin\Debug\netcoreapp3.1\TieuTien.runtimeconfig.json
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\TieuTien\bin\Debug\netcoreapp3.1\TieuTien.runtimeconfig.dev.json
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\TieuTien\bin\Debug\netcoreapp3.1\TieuTien.dll
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\TieuTien\bin\Debug\netcoreapp3.1\TieuTien.pdb
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\TieuTien\obj\Debug\netcoreapp3.1\TieuTien.AssemblyInfoInputs.cache
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\TieuTien\obj\Debug\netcoreapp3.1\TieuTien.AssemblyInfo.cs
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\TieuTien\obj\Debug\netcoreapp3.1\TieuTien.csproj.CoreCompileInputs.cache
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\TieuTien\obj\Debug\netcoreapp3.1\TieuTien.dll
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\TieuTien\obj\Debug\netcoreapp3.1\TieuTien.pdb
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\TieuTien\obj\Debug\netcoreapp3.1\TieuTien.genruntimeconfig.cache
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\TieuTien\obj\Debug\netcoreapp3.1\TieuTien.csprojAssemblyReference.cache

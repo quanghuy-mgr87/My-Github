@@ -1,0 +1,81 @@
+1. Mounting Templates
+    - Cho đến bây giờ, ta luôn sử dụng thuộc tính el trong các phiên bản Vue của chúng ta để chỉ định phần tử HTML nào mà đối tượng
+        Vue sẽ kiểm soát. Hoặc cụ thể hơn, phần tử Vue nên được gắn vào.
+    - Điều này có nghĩa là ta phải biết trước phần tử nào mà Vue cần được gắn vào ngay khi chúng ta khai báo Vue instance. Nhưng trong 
+        thực tế chúng ta có thể không phải lúc nào cũng biết điều này.
+    - Do đó, có thể tự động gắn template bằng cách sử dụng một phương thức trong Vue instance
+
+            vm.$mount('selector')
+    
+    - Trong đó, vm là tên biến được gán khi khởi tạo Vue instance, selector là tên bộ chọn css của phần tử mà chúng ta cần mount cho 
+        Vue instance
+    
+        VD: Ở đây ta ko dùng el nữa, thay vào đó ta dùng vm.$mount('selector') như trên
+            <div id="app1">
+            <h1 ref = "theH1">{{msg}}</h1>
+            <h2 ref = "theH2">{{msg}}</h2>
+            <button @click = "show()">Show</button>
+            </div>
+            <!--  -->
+            <script>
+                var dataObjectOutside = {
+                    msg: 'Hello',
+                }
+                var vm1 = new Vue({
+                    //el: "app1",
+                    data() {
+                        return {
+                            msg: 'Helu',
+                        }
+                    },
+                    methods: {
+                        show(){
+
+                        }
+                    },
+                })
+
+                vm1.$mount('#app1') //chỉ sử dụng đc cho bộ chọn đầu tiên nó tìm đc, nên có dùng class cũng chỉ như id, ko dùng full đc
+            </script>
+
+    - Ta đã thấy cách gắn các Vue instance vào các phần tử html. Tuy nhiên, ngược lại, chúng ta cũng có thể thêm một template trực tiếp
+        trong Vue instance bằng thuộc tính template của nó.
+
+        VD:
+            var vm = new Vue({
+                template:'<h1>{{msg}}</h1>',
+                data:{
+                    msg: 'Hello'
+                }
+            });
+            vm.$mount('#app');
+
+    - Cách gắn template này có một số ưu, nhược điểm mà chúng ta cần hiểu rõ để sử dụng nó một cách linh hoạt nhất:
+        + Ưu: Linh hoạt, phù hợp để gắn những template nhỏ, có nội dung ngắn
+        + Nhược: Không phù hợp vói các template có nội dung dài, phức tạp. Vì chuỗi được lưu trong thuộc tính template không hỗ trợ như các
+            IDE thông thường (tức là đoạn code ta sẽ viết ở trong nháy đơn / kép, khi viết sẽ như viết text thông thường, không đc hỗ trợ nhắc
+            lệnh hay báo lỗi như ta code bình thường. Vậy nên không khuyến khích dùng khi có quá nhiều code)
+
+
+
+2. Vue Instance Lifecycle (Vòng đời của Vue)
+    - Khi được khởi tạo, một đối tượng Vue sẽ đi qua nhiều bước khác nhau - cài đặt quan sát dữ liệu (data observation), biến dịch template, 
+        gắn kết vào DOM, cập nhật DOM khi dữ liệu thay đổi. Trong suốt tiến trình này, nó cũng sẽ thực thi một số hàm gọi là lifecycle hook, 
+        giúp người dùng thêm code của mình vào các giai đoạn (stage) cụ thể trong vòng đời của đối tượng.
+    - Ví dụ, hook created có thể được dùng để thực thi code sau khi một đối tượng được khởi tạo:
+
+        VD:
+            new Vue({
+                data:{
+                    a: 1
+                },
+                created: function(){
+                    // "this" trỏ đến đối tượng Vue hiện hành
+                    console.log('giá trị của a là ' + this.a)
+                }
+            })
+
+            // => "giá trị của a là 1"
+    
+    - Các hook khác như mounted, updated, destroyed cũng được gọi vào các giai đoạn khác nhau trong vòng đời của đối tượng. Tất cả các hook này
+        đều được thực thi với ngữ cảnh this trỏ đến đối tượng Vue hiện hành.

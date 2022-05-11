@@ -1,0 +1,83 @@
+<!-- Nội dung chính:
+  1. Giới thiệu tổng quan
+  2. Tạo 1 instance
+  3. Data và method trong 1 instance
+-->
+<!-- 
+    1. Giới thiệu tổng quan
+        - Thuật ngữ instance có thể tạm dịch là 1 thể hiện, một thực thi hay một thực thể của lớp (class).
+        - Class (lớp) giống như 1 bản thiết kế nhà, chúng ra sử dụng bản thiết kế này để xây nhà cụ thể (là các instance).
+        - Các đối tượng (object) này giống nhau về khung (số tầng, cầu thang, ...) nhưng khác nhau về nét đặc trưng (màu sơn, chất liệu cửa, ...).
+        
+        var vm = new Vue({
+            //Các tùy chọn
+        })
+        
+        - Vue.js được thiết kế hướng theo mô hình MVVM, quy ước sử dụng biến vm (viết tắt ViewModel) để tham chiếu đến một thực thể Vue.
+        - Khi khởi tạo một thực thể Vue, bạn cần quyền cho nó một đối tượng chứa các thuộc tính. Các thuộc tính này có các nhiệm vụ 
+        khác nhau trong ứng dụng:
+            + data chứa dữ liệu
+            + template chứa mã các phần tử được viết riêng
+            + methods chứa các phương thức được sử dụng trong ứng dụng
+            + Ngoài ra còn có các phương thức được kích hoạt trong vòng đời của thực thể Vue
+
+        2. Tạo một instance:
+        - Từ những định nghĩa trên, ta có Vue instance là một thể hiện hay một thực thể của lớp Vue. Mọi thứ sử dụng sử dụng 
+        frameword Vue.js đều phải bắt đầu bằng việc khởi tạo Vue instance với cú pháp: 
+        
+            <div>
+            <h1>{{msg}}</h1>
+            </div>
+            <script>
+            var vm = new Vue({
+                el: '#app',
+                data:{
+                msg: 'Hello World!'
+                },
+                methods:{
+                //methods of instance
+                }
+            })
+            </script>
+
+        3. Data và methods trong một instance
+        - Thuộc tính (property) và phương thức (methods) là hai khái niệm quen thuộc trong lập trình hướng đối tượng. Thuộc tính 
+        có thể hiểu là những đặc điểm của đối tượng và phương thức là hành động của đối tượng. Vậy trong Vue thì hai khái niệm này
+        hoạt động ntn?
+        - Khi một đối tượng
+    -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+        <h1>{{a}}</h1>
+    </div>
+    <script>
+        var data = {
+            a: 1
+        }
+        var vm = new Vue({
+            el: "#app",
+            data: data,
+            methods: {
+
+            },
+        });
+        console.log(data.a === vm.$data.a);
+        console.log(data.a);
+        console.log(vm.$data.a);
+        vm.$data.a = 5;
+        console.log(data.a);
+    </script>
+</body>
+
+</html>

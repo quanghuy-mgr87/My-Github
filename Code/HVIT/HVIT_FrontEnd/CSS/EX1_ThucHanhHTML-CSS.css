@@ -1,0 +1,49 @@
+.mainBorder {
+  border: solid red 1px;
+}
+/* TOP */
+.top {
+  background-color: yellow;
+}
+
+span {
+  font-weight: 900;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 45px;
+}
+
+#slick {
+  background-color: yellow;
+}
+
+#menu {
+  height: 30px;
+  background-color: brown;
+  color: white;
+}
+
+/* MID */
+.mid {
+    height: 150px;
+}
+
+#left {
+  float: left;
+  color: white;
+  width: 204px;
+  height: 150px;
+  background-color: teal;
+}
+
+#right {
+  color: white;
+  border: solid green 1px;
+  height: 100px;
+  background-color: orange;
+}
+
+/* BOT */
+.bottom {
+  background-color: darkviolet;
+  height: 70px;
+}

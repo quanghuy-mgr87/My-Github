@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thao tác với v-for 1</title>
+</head>
+
+<body>
+    <div id="app">
+        <ul>
+            <li v-for="(val,index) in hocSinh" :key="index">{{val.name}} có tuổi là {{val.age}} đến từ {{val.address}}</li>
+        </ul>
+    </div>
+    <script>
+        var vm = new Vue({
+            data: function() {
+                return {
+                    hocSinh: [{
+                        name: "Nguyen Van A",
+                        age: 18,
+                        address: "Ha Noi",
+                    }, {
+                        name: "Nguyen Van B",
+                        age: 20,
+                        address: "TPHCM",
+                    }, {
+                        name: "Nguyen Van C",
+                        age: 22,
+                        address: "Hai Phong",
+                    }, {
+                        name: "Nguyen Van D",
+                        age: 18,
+                        address: "Ha Noi",
+                    }, {
+                        name: "Nguyen Van E",
+                        age: 26,
+                        address: "Da Nang",
+                    }]
+                }
+            },
+        });
+        vm.$mount("#app");
+    </script>
+</body>
+
+</html>

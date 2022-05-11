@@ -1,0 +1,18 @@
+1. Các văn bản giấy có được tính là dữ liệu dạng text hay không?
+ - Hiện tại, mình đang nói đến dữ liệu đa phương tiện (dữ liệu multimedia)
+ - Multimedia là lĩnh vực mỹ thuật đa phương tiện - ứng dụng công nghệ thông tin 
+   trong việc sáng tạo, thiết kế nên những sản phẩm mang tính đa phương tiện 
+   (chạy trên nhiều thiết bị đầu cuối khác nhau)
+
+2. Ảnh động (Motion picture) với Animation có khác biệt gì không?
+ - Sự khác biệt chính đó là nội dung, animation như một hình thức nghệ thuật cụ thể 
+ tập trung nhiều hơn vào các hiệu ứng điện ảnh và kỹ thuật kể chuyện để tạo ra một câu chuyện.
+ - Nếu video của bạn thiết lập đồ họa chuyển động để minh họa một điểm, thì nó sẽ được gọi là đồ 
+ họa chuyển động. Nếu video của bạn có một nhân vật con người thực hiện một hành trình đầy cảm xúc, 
+ thì nhiều khả năng nó được gọi là animation.
+
+3. Sự khác biệt giữa sound và audio?
+ - sound và audio đều là âm thanh, tuy nhiên sound mang ý nghĩa rộng hơn audio, sound có thể là âm 
+ thanh được phát ra bởi bất kỳ nguồn nào, từ tự nhiên đến thiết bị nhân tạo. Audio là âm thanh phát
+ ra từ thiết bị nhân tạo, có làn điệu. 1 tiếng "bíp" phát ra từ loa của radio gọi là sound, nhưng 
+ ko gọi là audio.

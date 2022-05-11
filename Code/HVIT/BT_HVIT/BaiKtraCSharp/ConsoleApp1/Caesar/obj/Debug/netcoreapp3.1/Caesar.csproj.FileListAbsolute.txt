@@ -1,0 +1,13 @@
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\Caesar\bin\Debug\netcoreapp3.1\Caesar.exe
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\Caesar\bin\Debug\netcoreapp3.1\Caesar.deps.json
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\Caesar\bin\Debug\netcoreapp3.1\Caesar.runtimeconfig.json
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\Caesar\bin\Debug\netcoreapp3.1\Caesar.runtimeconfig.dev.json
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\Caesar\bin\Debug\netcoreapp3.1\Caesar.dll
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\Caesar\bin\Debug\netcoreapp3.1\Caesar.pdb
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\Caesar\obj\Debug\netcoreapp3.1\Caesar.AssemblyInfoInputs.cache
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\Caesar\obj\Debug\netcoreapp3.1\Caesar.AssemblyInfo.cs
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\Caesar\obj\Debug\netcoreapp3.1\Caesar.csproj.CoreCompileInputs.cache
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\Caesar\obj\Debug\netcoreapp3.1\Caesar.dll
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\Caesar\obj\Debug\netcoreapp3.1\Caesar.pdb
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\Caesar\obj\Debug\netcoreapp3.1\Caesar.genruntimeconfig.cache
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\Caesar\obj\Debug\netcoreapp3.1\Caesar.csprojAssemblyReference.cache

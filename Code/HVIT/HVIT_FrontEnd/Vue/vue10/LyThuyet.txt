@@ -1,0 +1,161 @@
+1. Đăng ký Component ở Local và Global (local giống private, global giống public)
+    * Đăng ký Global:
+        - Khi đăng kí Component bằng phương thức Vue.component() thì các component này được đăng ký toàn cục, nghĩa là chúng có thể
+            sử dụng ở bất kỳ đâu trong Vue instance gốc được tạo ra bằng câu lệnh new Vue.
+
+            VD:
+                Vue.component('component-a',{/*.....*/})
+                Vue.component('component-b',{/*.....*/})
+                Vue.component('component-c',{/*.....*/})
+
+                new Vue({el:"app"})
+
+                <div id="app">
+                    <component-a></component-a>
+                    <component-b></component-b>
+                    <component-c></component-c>
+                </div>
+
+        * Chú ý: Điều này còn áp dụng cho tất cả những components con, tức là tất cả 3 component trên đều có thể sử dụng lẫn nhau.
+
+            VD: Dưới đây có tạo 1 component toàn cục: từ dòng 35-42. Và ta có thể sử dụng component đó cho 2 app khác nhau
+                <body>
+                    <div id="app1">
+                        <my-component></my-component>
+                        <hr />
+                        <my-component></my-component>
+                    </div>
+
+                    <div id="app2">
+                        <my-component></my-component>
+                        <hr />
+                        <my-component></my-component>
+                    </div>
+                    <script>
+                        Vue.component("myComponent", {
+                            template: '<button @click = "counter++">Bạn đã click {{counter}} lần</button>',
+                            data: function() {
+                                return {
+                                    counter: 0,
+                                };
+                            },
+                        });
+
+                        var vm = new Vue({
+                            el: "#app1",
+                        });
+
+                        var vm2 = new Vue({
+                            el: "#app2",
+                        });
+                    </script>
+                </body>
+
+            VD: Dưới đây là my-component2 gọi đến my-component
+                Vue.component("myComponent2", {
+                            template: "<div><span><b>My-component2: </b></span><my-component></my-component></div>",
+                            data: function() {
+                                return {
+                                    counter: 0,
+                                };
+                            },
+                        });
+
+
+    * Đăng ký Local:
+        - Đăng kí component Global thường không phải là 1 biện pháp lí tưởng. Ví dụ, nếu bạn sử dụng một hệ thống xây dựng (build system)
+            như webpack, babel, đăng kí toàn cục cho tất cả các component có nghĩa là kể cả khi ko sử dụng 1 component nữa, component đó
+            vẫn có thể được thêm vào bản build cuối cùng. Điều này là ko cần thiết và làm gia tăng khối lượng của javascript mà người dùng
+            cần phải tải xuống.
+
+            VD:
+                var ComponentA = {/*...*/}
+                var ComponentB = {/*...*/}
+                var ComponentC = {/*...*/}
+
+                new Vue({
+                    el: "#app",
+                    components: {
+                        'component-a': ComponentA,
+                        'component-b': ComponentB
+                    },
+                })
+
+        - Lưu ý rằng bạn sẽ không truy xuất được đến các component được đăng kí cục bộ từ các component con. Ví dụ, nếu bạn muốn sử dụng
+            ComponentA trong ComponentB, bạn phải khai báo: 
+
+                var ComponentA = {/*...*/}
+                var ComponentB = {
+                    components: {
+                        'component-a': ComponentA
+                    },
+                }
+
+                //hoặc
+                //Sử dụng module ES2015 (thông qua babel hay webpack)
+                import ComponentA from './ComponentA.vue'
+
+                export default {
+                    components: {
+                        ComponentA
+                    },
+                }
+            
+        * Lưu ý: 
+            - Nếu bạn đang sử dụng hệ thống module như babel và webpack. Trong trường hợp này, vue khuyến khích tạo 1 file riêng cho mỗi 
+                component.
+            - Sau đó ta sẽ cần phải nhập (import) từng component mà bạn muốn sử dụng trước khi đăng kí local. VD, trong 1 file ComponentB.js
+                hoặc ComponentB.vue:
+
+                VD:
+                    import ComponentA from './ComponentA'
+                    import ComponentC from '.ComponentC'
+                    export default {
+                        components: {
+                            ComponentA,
+                            ComponentC
+                        },
+                    }
+
+                //Giờ đã có thể sử dụng cà ComponentA và ComponentC trong template của ComponentB
+
+
+2. Root component
+    - Nếu bạn sử dụng module ES2015 (thông qua babel hay webpack), root component sẽ nằm trong fild app.vue
+    - Tại file main.js, sử dụng render thay co template. Về cơ bản thì phương thức render này cho phép ta ghi đè lên template của mình.
+        Tại render sẽ kết xuất mã javascript đã biên dịch. Do đó, ta ko cần đối mặt với các hạn chế khi dùng template trực tiếp trong instance.
+
+
+3. Using component
+    - Cách khởi tạo một component sử dụng Vu Cli:
+        + b1: tạo 1 file.vue
+        + b2: Khởi tạo nội dung trong file
+            <template>
+                //content
+            </template>
+            <script>
+                export default {
+                    //option (data, methods, ...)
+                }
+            </script>
+            [<style></style>]
+        + b3: Đăng ký component ở global hoặc local
+    
+        * Lưu ý: Luôn luôn phải bọc các element trong template vào 1 element root
+
+    - Cách sử dụng đăng ký Global
+            import ConponentName from 'component_path'
+            Vue.component('componentName',ComponentName)
+
+    - Cách sử dụng đăng ký ở Local:
+            <template>
+                <component-name></component-name>
+            </template>
+            <script>
+                import ComponentName from 'component_path'
+                export default {
+                    components : {
+                        ComponentName,
+                    }
+                }
+            </script>

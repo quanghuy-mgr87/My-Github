@@ -1,0 +1,13 @@
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\TestFind\bin\Debug\netcoreapp3.1\TestFind.exe
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\TestFind\bin\Debug\netcoreapp3.1\TestFind.deps.json
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\TestFind\bin\Debug\netcoreapp3.1\TestFind.runtimeconfig.json
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\TestFind\bin\Debug\netcoreapp3.1\TestFind.runtimeconfig.dev.json
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\TestFind\bin\Debug\netcoreapp3.1\TestFind.dll
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\TestFind\bin\Debug\netcoreapp3.1\TestFind.pdb
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\TestFind\obj\Debug\netcoreapp3.1\TestFind.AssemblyInfoInputs.cache
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\TestFind\obj\Debug\netcoreapp3.1\TestFind.AssemblyInfo.cs
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\TestFind\obj\Debug\netcoreapp3.1\TestFind.csproj.CoreCompileInputs.cache
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\TestFind\obj\Debug\netcoreapp3.1\TestFind.dll
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\TestFind\obj\Debug\netcoreapp3.1\TestFind.pdb
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\TestFind\obj\Debug\netcoreapp3.1\TestFind.genruntimeconfig.cache
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\TestFind\obj\Debug\netcoreapp3.1\TestFind.csprojAssemblyReference.cache

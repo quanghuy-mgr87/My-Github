@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thao tác với v-if/ elseif/ else</title>
+</head>
+
+<body>
+    <div id="app1">
+        <div v-if="xucXac > 5">Bạn quay được trên 5 điểm</div>
+        <div v-else-if="xucXac == 5">Bạn quay được 5 điểm</div>
+        <div v-else>Bạn quay được dưới 5 điểm</div>
+        <button @click="Random">Quay</button>
+    </div>
+    <script>
+        var vm = new Vue({
+            data() {
+                return {
+                    xucXac: 0
+                }
+            },
+            methods: {
+                Random() {
+                    this.xucXac = Math.random() * 10;
+                    console.log(this.xucXac);
+                }
+            },
+        });
+        vm.$mount("#app1");
+    </script>
+</body>
+
+</html>

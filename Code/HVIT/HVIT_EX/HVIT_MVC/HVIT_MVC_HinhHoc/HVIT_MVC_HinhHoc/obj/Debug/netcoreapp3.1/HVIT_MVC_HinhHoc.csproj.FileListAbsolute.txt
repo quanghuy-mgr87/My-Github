@@ -1,0 +1,13 @@
+D:\Code\HVIT\HVIT_EX\HVIT_MVC_HinhHoc\HVIT_MVC_HinhHoc\bin\Debug\netcoreapp3.1\HVIT_MVC_HinhHoc.exe
+D:\Code\HVIT\HVIT_EX\HVIT_MVC_HinhHoc\HVIT_MVC_HinhHoc\bin\Debug\netcoreapp3.1\HVIT_MVC_HinhHoc.deps.json
+D:\Code\HVIT\HVIT_EX\HVIT_MVC_HinhHoc\HVIT_MVC_HinhHoc\bin\Debug\netcoreapp3.1\HVIT_MVC_HinhHoc.runtimeconfig.json
+D:\Code\HVIT\HVIT_EX\HVIT_MVC_HinhHoc\HVIT_MVC_HinhHoc\bin\Debug\netcoreapp3.1\HVIT_MVC_HinhHoc.runtimeconfig.dev.json
+D:\Code\HVIT\HVIT_EX\HVIT_MVC_HinhHoc\HVIT_MVC_HinhHoc\bin\Debug\netcoreapp3.1\HVIT_MVC_HinhHoc.dll
+D:\Code\HVIT\HVIT_EX\HVIT_MVC_HinhHoc\HVIT_MVC_HinhHoc\bin\Debug\netcoreapp3.1\HVIT_MVC_HinhHoc.pdb
+D:\Code\HVIT\HVIT_EX\HVIT_MVC_HinhHoc\HVIT_MVC_HinhHoc\obj\Debug\netcoreapp3.1\HVIT_MVC_HinhHoc.csprojAssemblyReference.cache
+D:\Code\HVIT\HVIT_EX\HVIT_MVC_HinhHoc\HVIT_MVC_HinhHoc\obj\Debug\netcoreapp3.1\HVIT_MVC_HinhHoc.AssemblyInfoInputs.cache
+D:\Code\HVIT\HVIT_EX\HVIT_MVC_HinhHoc\HVIT_MVC_HinhHoc\obj\Debug\netcoreapp3.1\HVIT_MVC_HinhHoc.AssemblyInfo.cs
+D:\Code\HVIT\HVIT_EX\HVIT_MVC_HinhHoc\HVIT_MVC_HinhHoc\obj\Debug\netcoreapp3.1\HVIT_MVC_HinhHoc.csproj.CoreCompileInputs.cache
+D:\Code\HVIT\HVIT_EX\HVIT_MVC_HinhHoc\HVIT_MVC_HinhHoc\obj\Debug\netcoreapp3.1\HVIT_MVC_HinhHoc.dll
+D:\Code\HVIT\HVIT_EX\HVIT_MVC_HinhHoc\HVIT_MVC_HinhHoc\obj\Debug\netcoreapp3.1\HVIT_MVC_HinhHoc.pdb
+D:\Code\HVIT\HVIT_EX\HVIT_MVC_HinhHoc\HVIT_MVC_HinhHoc\obj\Debug\netcoreapp3.1\HVIT_MVC_HinhHoc.genruntimeconfig.cache

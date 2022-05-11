@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thao tác với v-for + v-if</title>
+</head>
+
+<body>
+    <div id="app">
+        <div v-for="(val,index) in hocSinh">
+            <div :key="index" v-if="val.gen == true">
+                Họ tên: {{val.name}}, tuổi: {{val.age}}, giới tính: {{val.gen}}
+            </div>
+        </div>
+    </div>
+    <script>
+        var vm = new Vue({
+            data: function() {
+                return {
+                    hocSinh: [{
+                        name: "Nguyen Van A",
+                        age: 18,
+                        gen: true,
+                    }, {
+                        name: "Nguyen Van B",
+                        age: 20,
+                        gen: false,
+                    }, {
+                        name: "Nguyen Van C",
+                        age: 22,
+                        gen: true,
+                    }, {
+                        name: "Nguyen Van D",
+                        age: 18,
+                        gen: true,
+                    }, {
+                        name: "Nguyen Van E",
+                        age: 26,
+                        gen: false,
+                    }, ],
+                };
+            },
+        });
+        vm.$mount("#app");
+    </script>
+</body>
+
+</html>

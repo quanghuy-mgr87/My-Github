@@ -1,0 +1,4 @@
+D:\Code\HVIT\HVIT_EX\HVIT_MVC_OOP\HVIT_MVC_HinhHoc\obj\Debug\netcoreapp3.1\HVIT_MVC_HinhHoc.csprojAssemblyReference.cache
+D:\Code\HVIT\HVIT_EX\HVIT_MVC_OOP\HVIT_MVC_HinhHoc\obj\Debug\netcoreapp3.1\HVIT_MVC_HinhHoc.AssemblyInfoInputs.cache
+D:\Code\HVIT\HVIT_EX\HVIT_MVC_OOP\HVIT_MVC_HinhHoc\obj\Debug\netcoreapp3.1\HVIT_MVC_HinhHoc.AssemblyInfo.cs
+D:\Code\HVIT\HVIT_EX\HVIT_MVC_OOP\HVIT_MVC_HinhHoc\obj\Debug\netcoreapp3.1\HVIT_MVC_HinhHoc.csproj.CoreCompileInputs.cache

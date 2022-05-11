@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Tạo bảng, trộn dòng và cột</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 12px;
+        }
+        
+        .num {
+            text-align: center;
+        }
+        
+        th,
+        tr,
+        td {
+            border: 1px solid orangered!important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8">
+                <h1 style="text-align: center; color: #CC0033;">Chương trình học - ngành lập trình</h1>
+                <table class="table table-bordered">
+                    <thead style="text-align: center; background-color: #CC0033; color: white;">
+                        <th rowspan="2" style="padding: 32px 0px;">
+                            Nhóm học phần
+                        </th>
+                        <th rowspan="2" style="padding: 32px 0px;">
+                            Môn học
+                        </th>
+                        <th colspan="2">
+                            Số tiết
+                        </th>
+                        <tr>
+                            <th>Lý thuyết</th>
+                            <th>Thực hành</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="6" style="text-align: center; padding: 100px 0px; color: #CC0033;">
+                                I <br> Tin học văn phòng
+                            </td>
+                            <td>
+                                Hệ điều hành Windows
+                            </td>
+                            <td class="num">3</td>
+                            <td class="num">5</td>
+                            <tr>
+                                <td>Sử dụng Internet</td>
+                                <td class="num">3</td>
+                                <td class="num">5</td>
+                            </tr>
+                            <tr>
+                                <td>Soạn thảo văn bản với MS Word</td>
+                                <td class="num">24</td>
+                                <td class="num">40</td>
+                            </tr>
+                            <tr>
+                                <td>To bản trình diễn với MS PowerPoint</td>
+                                <td class="num">9</td>
+                                <td class="num">15</td>
+                            </tr>
+                            <tr>
+                                <td>Xử lý số liệu với MS Excel</td>
+                                <td class="num">24</td>
+                                <td class="num">40</td>
+                            </tr>
+                            <tr>
+                                <td>Tạo trang Web với MS FrontPage</td>
+                                <td class="num">9</td>
+                                <td class="num">15</td>
+                            </tr>
+                        </tr>
+                        <tr>
+                            <td rowspan="2" style="text-align: center; padding: 20px; color: #CC0033;">
+                                II <br> Kỹ thuật lập trình (VB.NET)
+                            </td>
+                            <td>Nhập môn lập trình</td>
+                            <td class="num">36</td>
+                            <td class="num">60</td>
+                            <tr>
+                                <td>Kỹ thuật lập trình</td>
+                                <td class="num">36</td>
+                                <td class="num">60</td>
+                            </tr>
+                        </tr>
+                        <tr>
+                            <td colspan="4">....</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+    </div>
+</body>
+
+</html>

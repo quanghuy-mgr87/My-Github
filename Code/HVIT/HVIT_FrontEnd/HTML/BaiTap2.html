@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <style>
+        .container-fluid>div>a {
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+        }
+        
+        .container-fluid>div>a:hover {
+            background-color: gray;
+            padding: 15px;
+        }
+        
+        .carousel-item>img {
+            height: 400px;
+            width: 100%;
+        }
+        
+        .imgRow2-1 {
+            background: url(https://cdna.artstation.com/p/assets/images/images/000/826/910/large/wl-op-100-s.jpg?1443931462) no-repeat center;
+            height: 695px;
+            background-size: 100%;
+        }
+        
+        .imgRow2-2 {
+            background: url(https://i.pinimg.com/564x/b2/f5/54/b2f5547315612815f65eb9a6687e151d.jpg) no-repeat center;
+            height: 500px;
+            background-size: 100%;
+        }
+        
+        .imgRow2-3 {
+            background: url(https://i.pinimg.com/564x/9e/1d/32/9e1d328a55d25a09e0e8ddb0c1bee43a.jpg) no-repeat center;
+            height: 500px;
+            background-size: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container-fluid" style="background-color: rgb(65, 64, 64); height: 50px;">
+            <h4 style="color: white; float: left; margin-top: 10px;">Website Name</h4>
+            <div style="float: right; background-color: black; padding: 13px 0px;">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+                <a href="#">Link 4</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="main">
+        <div class="container-fluid">
+            <div class="row mt-3 mb-4">
+                <div class="col-lg-9">
+                    <div class="card">
+                        <div id="demo" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ul class="carousel-indicators">
+                                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                                <li data-target="#demo" data-slide-to="1"></li>
+                                <li data-target="#demo" data-slide-to="2"></li>
+                            </ul>
+
+                            <!-- The slideshow -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="../Album/dc7a961-8eb0fb7b-f440-498b-9af2-18a595d02091.jpg" alt="Los Angeles" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../Album/ddc1b4y-e19bb0de-d6d4-49bb-a56e-8e0bb2a0f6af.jpg" alt="Chicago" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../Album/windmill_town_by_darekzabrocki_ddojrcp-fullview.jpg" alt="New York" />
+                                </div>
+                            </div>
+
+                            <!-- Left and right controls -->
+                            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#demo" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div style="padding: 0px 10px 40px 10px; margin-top: 10px; border-bottom: lightgray solid 1px; width: 100%;">
+                        <input type="text" name="search" placeholder="Search" style="padding: 10px; height: 40px; width: 200px; margin-right: 5px;" />
+                        <button class="btn btn-primary" style="height: 40px; margin-bottom: 5px;">Search</button>
+                        <br /><br /><br />
+                        <h1 style="margin-bottom: 20px;">Get In Touch!</h1>
+                    </div>
+                    <button class="btn btn-primary mb-3 mt-5" style="height: 40px; width: 100%; display: block;">Call to Action!</button>
+                    <button class="btn btn-primary mb-1" style="height: 40px; width: 100%; display: block;">Call to Action!</button>
+                </div>
+            </div>
+
+            <div class="row mt-3 pt-3" style="border-top: solid 1px lightgrey;">
+                <div class="col-lg-4">
+                    <!-- Đặt position relative ra div chứa phần div của link -->
+                    <!-- Mẹo ở đây là gắn div to này có height 100% để khi kích thước trang thay đổi thì div này sẽ thay đổi -->
+                    <!-- Tiếp đến sẽ gắn min-height là bao nhiêu đó để khi co trang lại thì kích thước div cũng ko co theo, 
+                        mục đích để giữ div link không bị đè lên chữ khi kích thước của div bị co lại -->
+                    <div class="card" style="width: 450px; height: 100%; position: relative; min-height: 896px;">
+                        <div class="imgRow2-1"></div>
+                        <div style="padding: 10px; border-bottom: solid 1px lightgray;">
+                            <h5>Header</h5>
+                            <p>
+                                Fusce ullamcorpe mauris in eros dignissim molestie posuere felis blandit. Mauris ultricies posuere vehicula. Sed sit amet posuere erat.
+                            </p>
+                        </div>
+                        <!-- Gắn div của link vào bottom và left, mỗi bên cách 5px bằng position: absolute; bottom: 5px; left: 5px; -->
+                        <div style="padding: 5px 0px; position: absolute; bottom: 5px; left: 5px;">
+                            <button class="btn btn-primary" style="margin-left: 5px;">Link 1</button>
+                            <button class="btn btn-primary" style="margin-left: 5px;">Link 2</button>
+                            <button class="btn btn-primary" style="margin-left: 5px;">Link 3</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-8">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="imgRow2-2" style="height: 340px;"></div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="imgRow2-2" style="height: 340px;"></div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="imgRow2-2" style="height: 340px;"></div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="imgRow2-2" style="height: 340px;"></div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-3">
+                        <div class="col-lg-3">
+                            <div class="imgRow2-3" style="height: 340px;"></div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="imgRow2-3" style="height: 340px;"></div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="imgRow2-3" style="height: 340px;"></div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="imgRow2-3" style="height: 340px;"></div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="card p-3 mt-3" style="background-color: lightgray;">
+                                <h4>Sub Header</h4>
+                                <p>
+                                    Sed sit amet posuere erat. Qisque in ipsum non augue euismod dapibus non et eros
+                                </p>
+                                <button type="button" class="btn btn-primary w-25">Link</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card p-3 mt-3" style="background-color: lightgray;">
+                                <h4>Sub Header</h4>
+                                <p>
+                                    Sed sit amet posuere erat. Qisque in ipsum non augue euismod dapibus non et eros
+                                </p>
+                                <button type="button" class="btn btn-primary w-25">Link</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div class="container-fluid mt-5" style="border-top: solid 1px lightgray; padding: 20px 0px;">
+            <span style="margin-left: 10px;">&copy; Copyright no one at all. Go to town.</span>
+            <a href="#" style="float: right; padding: 10px;">Link 4</a>
+            <a href="#" style="float: right; padding: 10px;">Link 3</a>
+            <a href="#" style="float: right; padding: 10px;">Link 2</a>
+            <a href="#" style="float: right; padding: 10px;">Link 1</a>
+        </div>
+    </div>
+</body>
+
+</html>

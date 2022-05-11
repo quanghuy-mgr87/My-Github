@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app1">
+        <my-component></my-component>
+        <hr />
+        <my-component2></my-component2>
+    </div>
+
+    <!-- <div id="app2">
+        <my-component></my-component>
+        <hr />
+        <my-component></my-component>
+    </div> -->
+
+    <script>
+        //dòng trên <hr> ko dùng đc my-component vì lúc này, ta chỉ đăng kí my-component ở myComponent2, myComponent ta chuyển 
+        //thành khai báo local, ko phải global nên ko dùng đc
+        // local giống private, global giống public
+
+        // Vue.component("myComponent", {
+        //     template: '<button @click = "counter++">Bạn đã click {{counter}} lần</button>',
+        //     data: function() {
+        //         return {
+        //             counter: 0,
+        //         };
+        //     },
+        // });
+
+        var myComponent = {
+            template: '<button @click = "counter++">Bạn đã click {{counter}} lần</button>',
+            data: function() {
+                return {
+                    counter: 0,
+                };
+            },
+        };
+
+        Vue.component("myComponent2", {
+            components: {
+                "my-component": myComponent,
+            },
+            template: "<div><span><b>My-component2: </b></span><my-component></my-component></div>",
+            data: function() {
+                return {
+                    counter: 0,
+                };
+            },
+        });
+
+        var vm = new Vue({
+            el: "#app1",
+        });
+
+        var vm2 = new Vue({
+            el: "#app2",
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <!-- Vue -->
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <title>Thao tác với component</title>
+        <style>
+            * {
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="app">
+            <div class="row">
+                <div class="col-lg-4"></div>
+                <div class="col-lg-4 pt-5">
+                    <count-component></count-component>
+                </div>
+                <div class="col-lg-4"></div>
+            </div>
+        </div>
+        <script>
+            Vue.component("count-component", {
+                template: '<div><h3>Bạn quay được số: {{ count }}</h3> <button class="btn btn-primary" @click="click">Increase</button></div>',
+                data: function () {
+                    return {
+                        count: 0,
+                    };
+                },
+                watch: {
+                    count() {
+                        if (this.count > 100) {
+                            alert("Bấm ít thôi hỏng chuột bây giờ :))");
+                        }
+                    },
+                },
+                methods: {
+                    click() {
+                        this.count += Math.floor(Math.random() * 10) + 1;
+                    },
+                },
+            });
+            var vm = new Vue();
+            vm.$mount("#app");
+        </script>
+    </body>
+</html>

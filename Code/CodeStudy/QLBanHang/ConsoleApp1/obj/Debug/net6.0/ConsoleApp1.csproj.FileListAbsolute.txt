@@ -1,0 +1,15 @@
+E:\Work\Code\CodeStudy\QLBanHang\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.exe
+E:\Work\Code\CodeStudy\QLBanHang\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.deps.json
+E:\Work\Code\CodeStudy\QLBanHang\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.runtimeconfig.json
+E:\Work\Code\CodeStudy\QLBanHang\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.dll
+E:\Work\Code\CodeStudy\QLBanHang\ConsoleApp1\bin\Debug\net6.0\ref\ConsoleApp1.dll
+E:\Work\Code\CodeStudy\QLBanHang\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.pdb
+E:\Work\Code\CodeStudy\QLBanHang\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.AssemblyReference.cache
+E:\Work\Code\CodeStudy\QLBanHang\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+E:\Work\Code\CodeStudy\QLBanHang\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfoInputs.cache
+E:\Work\Code\CodeStudy\QLBanHang\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfo.cs
+E:\Work\Code\CodeStudy\QLBanHang\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+E:\Work\Code\CodeStudy\QLBanHang\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.dll
+E:\Work\Code\CodeStudy\QLBanHang\ConsoleApp1\obj\Debug\net6.0\ref\ConsoleApp1.dll
+E:\Work\Code\CodeStudy\QLBanHang\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.pdb
+E:\Work\Code\CodeStudy\QLBanHang\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.genruntimeconfig.cache

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Style bindings</title>
+</head>
+
+<body style="background-color: lightgreen;">
+    <div id="app1">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4"></div>
+                <div class="col-lg-4 pt-1">
+                    <!-- Cách khác -->
+                    <!-- <div>
+                        <i class="fa fa-car " :style="`color: ${turnOn? 'yellow': 'grey'};font-size:24px;` "></i>
+                    </div> -->
+                    <i class="fa fa-car" :style="light "></i>
+                    <div style="width: 100%; padding-left: 42%; padding-top: 10px;">
+                        <button class="btn btn-primary" @click="btnClick ">Turn {{lampStatus}}</button>
+                    </div>
+                </div>
+                <div class="col-lg-4"></div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var temp = {
+            lightOff: {
+                textAlign: "center ",
+                width: "100% ",
+                fontSize: "50px ",
+                color: "grey ",
+            },
+            lightOn: {
+                textAlign: "center ",
+                width: "100% ",
+                fontSize: "50px ",
+                color: "yellow ",
+            },
+        };
+        var vm = new Vue({
+            data: function() {
+                return {
+                    turnOn: false,
+                    lampStatus: "on ",
+                    light: temp.lightOff,
+                };
+            },
+            methods: {
+                btnClick() {
+                    this.turnOn = !this.turnOn;
+                    this.lampStatus = this.turnOn ? "off " : "on ";
+                    this.light = this.turnOn ? temp.lightOn : temp.lightOff;
+                },
+            },
+        });
+        vm.$mount("#app1 ");
+    </script>
+</body>
+
+</html>

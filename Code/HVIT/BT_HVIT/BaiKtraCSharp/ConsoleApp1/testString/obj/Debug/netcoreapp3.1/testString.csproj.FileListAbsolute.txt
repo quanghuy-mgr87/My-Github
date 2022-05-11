@@ -1,0 +1,12 @@
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\testString\bin\Debug\netcoreapp3.1\testString.exe
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\testString\bin\Debug\netcoreapp3.1\testString.deps.json
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\testString\bin\Debug\netcoreapp3.1\testString.runtimeconfig.json
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\testString\bin\Debug\netcoreapp3.1\testString.runtimeconfig.dev.json
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\testString\bin\Debug\netcoreapp3.1\testString.dll
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\testString\bin\Debug\netcoreapp3.1\testString.pdb
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\testString\obj\Debug\netcoreapp3.1\testString.AssemblyInfoInputs.cache
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\testString\obj\Debug\netcoreapp3.1\testString.AssemblyInfo.cs
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\testString\obj\Debug\netcoreapp3.1\testString.csproj.CoreCompileInputs.cache
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\testString\obj\Debug\netcoreapp3.1\testString.dll
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\testString\obj\Debug\netcoreapp3.1\testString.pdb
+D:\Code\HVIT\BT_HVIT\BaiKtraCSharp\ConsoleApp1\testString\obj\Debug\netcoreapp3.1\testString.genruntimeconfig.cache

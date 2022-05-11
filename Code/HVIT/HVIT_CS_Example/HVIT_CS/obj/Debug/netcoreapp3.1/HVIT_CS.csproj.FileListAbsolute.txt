@@ -1,0 +1,13 @@
+D:\Code\Code\CSharp\Console\HVIT_CS\HVIT_CS\bin\Debug\netcoreapp3.1\HVIT_CS.exe
+D:\Code\Code\CSharp\Console\HVIT_CS\HVIT_CS\bin\Debug\netcoreapp3.1\HVIT_CS.deps.json
+D:\Code\Code\CSharp\Console\HVIT_CS\HVIT_CS\bin\Debug\netcoreapp3.1\HVIT_CS.runtimeconfig.json
+D:\Code\Code\CSharp\Console\HVIT_CS\HVIT_CS\bin\Debug\netcoreapp3.1\HVIT_CS.runtimeconfig.dev.json
+D:\Code\Code\CSharp\Console\HVIT_CS\HVIT_CS\bin\Debug\netcoreapp3.1\HVIT_CS.dll
+D:\Code\Code\CSharp\Console\HVIT_CS\HVIT_CS\bin\Debug\netcoreapp3.1\HVIT_CS.pdb
+D:\Code\Code\CSharp\Console\HVIT_CS\HVIT_CS\obj\Debug\netcoreapp3.1\HVIT_CS.csprojAssemblyReference.cache
+D:\Code\Code\CSharp\Console\HVIT_CS\HVIT_CS\obj\Debug\netcoreapp3.1\HVIT_CS.AssemblyInfoInputs.cache
+D:\Code\Code\CSharp\Console\HVIT_CS\HVIT_CS\obj\Debug\netcoreapp3.1\HVIT_CS.AssemblyInfo.cs
+D:\Code\Code\CSharp\Console\HVIT_CS\HVIT_CS\obj\Debug\netcoreapp3.1\HVIT_CS.csproj.CoreCompileInputs.cache
+D:\Code\Code\CSharp\Console\HVIT_CS\HVIT_CS\obj\Debug\netcoreapp3.1\HVIT_CS.dll
+D:\Code\Code\CSharp\Console\HVIT_CS\HVIT_CS\obj\Debug\netcoreapp3.1\HVIT_CS.pdb
+D:\Code\Code\CSharp\Console\HVIT_CS\HVIT_CS\obj\Debug\netcoreapp3.1\HVIT_CS.genruntimeconfig.cache

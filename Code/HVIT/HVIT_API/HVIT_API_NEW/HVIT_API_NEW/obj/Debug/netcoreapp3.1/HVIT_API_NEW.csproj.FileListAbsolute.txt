@@ -1,0 +1,10 @@
+D:\Code\HVIT\HVIT_API\HVIT_API_NEW\HVIT_API_NEW\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Code\HVIT\HVIT_API\HVIT_API_NEW\HVIT_API_NEW\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Code\HVIT\HVIT_API\HVIT_API_NEW\HVIT_API_NEW\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Code\HVIT\HVIT_API\HVIT_API_NEW\HVIT_API_NEW\bin\Debug\netcoreapp3.1\HVIT_API_NEW.exe
+D:\Code\HVIT\HVIT_API\HVIT_API_NEW\HVIT_API_NEW\obj\Debug\netcoreapp3.1\HVIT_API_NEW.csprojAssemblyReference.cache
+D:\Code\HVIT\HVIT_API\HVIT_API_NEW\HVIT_API_NEW\obj\Debug\netcoreapp3.1\HVIT_API_NEW.AssemblyInfoInputs.cache
+D:\Code\HVIT\HVIT_API\HVIT_API_NEW\HVIT_API_NEW\obj\Debug\netcoreapp3.1\HVIT_API_NEW.AssemblyInfo.cs
+D:\Code\HVIT\HVIT_API\HVIT_API_NEW\HVIT_API_NEW\obj\Debug\netcoreapp3.1\HVIT_API_NEW.RazorTargetAssemblyInfo.cache
+D:\Code\HVIT\HVIT_API\HVIT_API_NEW\HVIT_API_NEW\obj\Debug\netcoreapp3.1\staticwebassets\HVIT_API_NEW.StaticWebAssets.Manifest.cache
+D:\Code\HVIT\HVIT_API\HVIT_API_NEW\HVIT_API_NEW\obj\Debug\netcoreapp3.1\staticwebassets\HVIT_API_NEW.StaticWebAssets.xml

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="app1">
+            <h1 ref = "theH1">{{msg}}</h1>
+            <h2 ref = "theH2">{{msg}}</h2>
+            <button @click = "show()">Show</button>
+            <span v-html="test"></span>
+        </div>
+        <!--  -->
+        <script>
+            var dataObjectOutside = {
+                msg: 'Hello',
+            }
+            var vm1 = new Vue({
+                //el: "#app1",
+                data() {
+                    return {
+                        msg: 'Helu',
+                        test: '<p style="color: #42b983; font-size: 20px;">Hello, I\'m hvit clan</p>'
+                    }
+                },
+                created() {
+                    this.show();
+                },
+                methods: {
+                    show(){
+                        alert('Created!')
+                    }
+                },
+            });
+
+            vm1.$mount('#app1');
+        </script>
+    </body>
+</html>

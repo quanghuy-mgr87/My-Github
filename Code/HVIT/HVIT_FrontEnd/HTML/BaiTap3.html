@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <style>
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+            .card {
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            <div id="header">
+                <div class="container-fluid pb-3" style="background-color: cadetblue;">
+                    <h5>1. Header</h5>
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2 col-12">
+                            <div class="card p-0">
+                                <p style="margin: 10px 0px;">1.1 Brand</p>
+                            </div>
+                        </div>
+                        <!-- Show on large screen -->
+                        <div class="col-lg-7 col-md-7 d-none d-md-block d-lg-block">
+                            <div class="card p-0">
+                                <p style="margin: 10px 0px;">1.2 Global nav</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 d-none d-md-block d-lg-block">
+                            <div class="card p-0">
+                                <p style="margin: 10px 0px;">1.3 Tools</p>
+                            </div>
+                        </div>
+                        <!-- Show on extra small screen -->
+                        <div class="col-6 mt-1 d-lg-none d-md-none d-block pr-1">
+                            <div class="card p-0">
+                                <p style="margin: 10px 0px;">1.2 Global nav</p>
+                            </div>
+                        </div>
+                        <div class="col-6 mt-1 d-lg-none d-md-none d-block pl-1">
+                            <div class="card p-0">
+                                <p style="margin: 10px 0px;">1.3 Tools</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="main">
+                <div class="row pb-3 pt-3">
+                    <div class="col-lg-9">
+                        <div class="container-fluid" style="background-color: darkgoldenrod;">
+                            <h5>2. Hero</h5>
+                            <div class="row">
+                                <div class="col-lg-8 d-none d-md-block d-lg-block">
+                                    <div class="card p-3 mb-3 d-md-none d-lg-block">
+                                        <p style="margin: 20px 0px;">2.1 Hero Feature</p>
+                                    </div>
+                                    <!-- Show on medium screen -->
+                                    <div class="card p-2 mb-3 d-md-block d-none d-lg-none">
+                                        <p style="margin: 0px 0px;">2.1 Hero Feature</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 d-none d-md-block d-lg-block">
+                                    <div class="card p-3 mb-3 d-md-none d-lg-block">
+                                        <p style="margin: 20px 0px;">2.2 Hero Call to Action</p>
+                                    </div>
+                                    <!-- Show on medium screen -->
+                                    <div class="card p-1 mb-3 d-md-block d-none d-lg-none">
+                                        <p style="margin: 0px 0px;">2.2 Hero Call to Action</p>
+                                    </div>
+                                </div>
+                                <!-- Show on extra small screen -->
+                                <div class="col-12 d-block d-md-none d-lg-none">
+                                    <div class="card mb-3">
+                                        <p>2.2 Hero Call to Action</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 d-none d-lg-block">
+                        <div class="container-fluid" style="background-color: cornflowerblue; padding: 53px 0px;">
+                            <div style="text-align: center;">
+                                <p>3. Ads</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pb-3">
+                    <!-- Show on large screen -->
+                    <div class="col-lg-9 d-none d-md-none d-lg-block">
+                        <div class="container-fluid" style="background-color: darkgoldenrod;">
+                            <h5>4. Body</h5>
+                            <div class="row pb-3">
+                                <div class="col-lg-4">
+                                    <div class="card" style="padding: 200px 0px;">
+                                        <p>4.1 Article Feature</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="card" style="padding: 200px 0px;">
+                                        <p>4.2 Article Listing</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Show on medium screen -->
+                    <div class="col-md-12 d-none d-md-block d-lg-none">
+                        <div class="container-fluid" style="background-color: darkgoldenrod;">
+                            <h5>4. Body</h5>
+                            <div class="row pb-3">
+                                <div class="col-md-9">
+                                    <div class="card" style="padding: 30px 0px;">
+                                        <p style="margin: 0;">4.1 Article Feature</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div style="background-color: cornflowerblue; padding: 31px 0px;">
+                                        <p style="text-align: center; margin: 0;">3. Ad</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row pb-3">
+                                <div class="col-md-12">
+                                    <div class="card" style="padding: 100px 0px;">
+                                        <p>4.2 Article Listing</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Show on extra small screen -->
+                    <div class="col-12 d-block d-lg-none d-md-none">
+                        <div class="container-fluid pb-2" style="background-color: darkgoldenrod;">
+                            <h5>4. Body</h5>
+                            <div class="card mb-2" style="padding: 0px;">
+                                <p>4.1 Article Feature</p>
+                            </div>
+                            <div style="background-color: cornflowerblue; padding: 10px 0px;">
+                                <p style="text-align: center; margin: 0px;">3. Ad</p>
+                            </div>
+                            <div class="card mt-2" style="padding: 10px 0px;">
+                                <p>4.2 Article Listing</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 d-lg-block d-md-none d-none">
+                        <div class="container-fluid" style="background-color: darkgoldenrod;">
+                            <h5>5. Sidebar</h5>
+                            <div class="row">
+                                <div class="col-lg-12 p-3">
+                                    <div class="card" style="padding: 192px 0px;">
+                                        <p>5.1 Sidebar Feature</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Show on medium screen -->
+                <div class="row pb-3 d-md-block d-none d-lg-none">
+                    <div class="col-md-12">
+                        <div class="container-fluid pb-3" style="background-color: darkgoldenrod;">
+                            <h5>5.Sidebar</h5>
+                            <div class="card p-4">
+                                <p style="margin: 0;">5.1 Sidebar Feature</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="footer">
+                <div class="container-fluid pb-3" style="background-color: crimson;">
+                    <h5>6. Footer</h5>
+                    <div class="row"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

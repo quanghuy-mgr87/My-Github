@@ -1,0 +1,17 @@
+D:\Code\dotNet\Tool\Demo_KAutoHelper_Android\Demo_KAutoHelper_Android\obj\Debug\Demo_KAutoHelper_Android.csprojAssemblyReference.cache
+D:\Code\dotNet\Tool\Demo_KAutoHelper_Android\Demo_KAutoHelper_Android\obj\Debug\MainWindow.g.cs
+D:\Code\dotNet\Tool\Demo_KAutoHelper_Android\Demo_KAutoHelper_Android\obj\Debug\App.g.cs
+D:\Code\dotNet\Tool\Demo_KAutoHelper_Android\Demo_KAutoHelper_Android\obj\Debug\Demo_KAutoHelper_Android_MarkupCompile.cache
+D:\Code\dotNet\Tool\Demo_KAutoHelper_Android\Demo_KAutoHelper_Android\obj\Debug\Demo_KAutoHelper_Android_MarkupCompile.lref
+D:\Code\dotNet\Tool\Demo_KAutoHelper_Android\Demo_KAutoHelper_Android\bin\Debug\Demo_KAutoHelper_Android.exe.config
+D:\Code\dotNet\Tool\Demo_KAutoHelper_Android\Demo_KAutoHelper_Android\bin\Debug\Demo_KAutoHelper_Android.exe
+D:\Code\dotNet\Tool\Demo_KAutoHelper_Android\Demo_KAutoHelper_Android\bin\Debug\Demo_KAutoHelper_Android.pdb
+D:\Code\dotNet\Tool\Demo_KAutoHelper_Android\Demo_KAutoHelper_Android\bin\Debug\KAutoHelper.dll
+D:\Code\dotNet\Tool\Demo_KAutoHelper_Android\Demo_KAutoHelper_Android\obj\Debug\MainWindow.baml
+D:\Code\dotNet\Tool\Demo_KAutoHelper_Android\Demo_KAutoHelper_Android\obj\Debug\Demo_KAutoHelper_Android.g.resources
+D:\Code\dotNet\Tool\Demo_KAutoHelper_Android\Demo_KAutoHelper_Android\obj\Debug\Demo_KAutoHelper_Android.Properties.Resources.resources
+D:\Code\dotNet\Tool\Demo_KAutoHelper_Android\Demo_KAutoHelper_Android\obj\Debug\Demo_KAutoHelper_Android.csproj.GenerateResource.cache
+D:\Code\dotNet\Tool\Demo_KAutoHelper_Android\Demo_KAutoHelper_Android\obj\Debug\Demo_KAutoHelper_Android.csproj.CoreCompileInputs.cache
+D:\Code\dotNet\Tool\Demo_KAutoHelper_Android\Demo_KAutoHelper_Android\obj\Debug\Demo_KAutoHelper_Android.csproj.CopyComplete
+D:\Code\dotNet\Tool\Demo_KAutoHelper_Android\Demo_KAutoHelper_Android\obj\Debug\Demo_KAutoHelper_Android.exe
+D:\Code\dotNet\Tool\Demo_KAutoHelper_Android\Demo_KAutoHelper_Android\obj\Debug\Demo_KAutoHelper_Android.pdb

@@ -1,0 +1,39 @@
+1. Giới thiệu tổng quan về Component trong Vue
+    - Như ta đã biết trong lập trình, việc lặp đi lặp lại 1 đoạn code gây ra nhiều rắc rối như tăng thời gian viết code, khó sử dụng lại,
+        khi có thay đổi thì lại phải sửa tất cả mọi nơi có code đó. Tuy nhiên, ở VueJS có cung cấp cho ta 1 khái niệm mới là Component
+        giúp cho code được cấu trúc thành các phần cơ bản
+    - Và nó đưa code cho chúng ta theo hướng module hóa nghĩa là tất cả những đoạn code liên quan đến 1 đối tượng nào đó sẽ được tập trung
+        tại 1 chỗ. Ví dụ như tạo 1 danh sách học sinh thì có list, create, edit và delete. Như bình thường ta sẽ viết tất cả html vào 1 file, 
+        js vào 1 file, như vậy đến khi sửa lỗi thì vô cùng khó khăn.
+    - Component là 1 trong các tính năng mạnh mẽ nhất của Vue, nó giúp ta gom nhớm các mã html để sử dụng các module tương tự. Ở 1 mức độ cao 
+        thì Component là 1 thành phần được Vue biên dịch để xử lý các hành vi.
+    - Component là các đối tượng Vue có thể tái sử dụng lại. Ta có thể dùng Component này như một phần tử bên trong đối tượng Vue gốc được tạo
+        bởi new Vue
+
+2. Tạo và đăng ký một Component
+    - Để đăng ký 1 Component thì ta dùng phương thức Vue.component()
+
+            *Tạo component:
+                Vue.component('nameComponent',{
+                    //các tùy chọn trong vue
+                });
+
+            *Sau khi tạo thì component của ta sẽ như 1 thẻ, ta sẽ sử dụng như sau:
+                <name-component></name-component>
+
+3. Sorting data with data methods
+    - Thuộc tính data trong component phải là 1 hàm.
+    - Bằng cách này, mỗi đối tượng của component (mỗi instance) có thể duy trì một bản sao riêng biệt của đối tượng data được trả về.
+    - Nếu Vue không có quy tắc này, thay đổi dữ liệu ở 1 component sẽ ảnh hưởng đến dữ liệu của toàn bộ các component khác.
+
+        *Thay vì viết ntn
+        data: {          
+            count: 0                
+        }
+
+        *Ta chuyển thành viết ntn
+        data: function () {
+            return {
+                count: 0
+            }
+        }
