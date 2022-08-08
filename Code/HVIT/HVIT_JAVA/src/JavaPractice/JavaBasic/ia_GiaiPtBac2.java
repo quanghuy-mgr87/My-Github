@@ -4,37 +4,29 @@ import java.util.Scanner;
 import java.util.zip.DeflaterOutputStream;
 
 public class ia_GiaiPtBac2 {
+    //Nhap vao 1 ky tu: thuc hien kiem tra ky tu vua nhap la viet hoa hay viet thuong, ky tu la nguyen am hay phu am
     public static void main(String[] args) {
-        double a, b, c;
         Scanner sc = new Scanner(System.in);
-        System.out.printf("Nhap a: ");
-        a = sc.nextDouble();
-        System.out.printf("Nhap b: ");
-        b = sc.nextDouble();
-        System.out.printf("Nhap c: ");
-        c = sc.nextDouble();
-        System.out.println("Phuong trinh bac 2: " + (int) a + "x2 + " + (int) b + "x + " + (int) c + " = 0");
-        if (a == 0) {
-            if (b == 0) {
-                if (c == 0) {
-                    System.out.println("Phuong trinh vo so nghiem");
-                } else {
-                    System.out.println("Phuong trinh vo nghiem");
-                }
-            } else {
-                System.out.println("Nghiem cua phuong trinh: " + -c * 1.0 / b);
-            }
+        System.out.printf("Nhap ky tu: ");
+        char kyTu = sc.next().charAt(0);
+        String nguyenAm = "aeiouAEIOU";
+
+        //Kiem tra ky tu viet hoa hay viet thuong
+        boolean checkUpperCase = Character.isUpperCase(kyTu);
+        if (checkUpperCase == true) {
+            System.out.println("Ky tu " + kyTu + " la chu hoa");
         } else {
-            Double delta = Math.pow(b, 2) - 4 * a * c;
-            if (delta == 0) {
-                System.out.println("Phuong trinh co nghiem kep: " + -b * 1.0 / (2 * a));
-            } else if (delta < 0) {
-                System.out.println("Phuong trinh vo nghiem");
-            } else {
-                System.out.println("Phuong trinh co 2 nghiem phan biet:");
-                System.out.println("x1 = " + (-b + Math.sqrt(delta)) * 1.0 / (2 * a));
-                System.out.println("x2 = " + (-b - Math.sqrt(delta)) * 1.0 / (2 * a));
-            }
+            System.out.println("Ky tu " + kyTu + " la chu thuong");
+        }
+//        String chuoiVietHoa = "Ky tu " + kyTu + " la chu " + (checkUpperCase == true ? "hoa" : "thuong");
+//        System.out.println(chuoiVietHoa);
+
+        //Kiem tra nguyen am
+        boolean checkNguyenAm = nguyenAm.contains(String.valueOf(kyTu));
+        if (checkNguyenAm == true) {
+            System.out.println("Ky tu " + kyTu + " la nguyem am");
+        } else {
+            System.out.println("Ky tu " + kyTu + " la phu am");
         }
     }
 }
